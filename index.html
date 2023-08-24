@@ -1,0 +1,2642 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- tiêu đề -->
+    <title>Dân Trí</title>
+    <!-- favicon -->
+    <link rel="apple-touch-icon" 
+    sizes="57x57" 
+    href="./assets/favicon/apple-icon-57x57.png"> 
+    <link rel="apple-touch-icon" 
+    sizes="60x60" 
+    href="./assets/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" 
+    sizes="72x72" 
+    href="./assets/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" 
+    sizes="76x76" 
+    href="./assets/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" 
+    sizes="114x114" 
+    href="./assets/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" 
+    sizes="120x120" 
+    href="./assets/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" 
+    sizes="144x144" 
+    href="./assets/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" 
+    sizes="152x152" 
+    href="./assets/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" 
+    sizes="180x180" 
+    href="./assets/favicon/apple-icon-180x180.png">
+    <link rel="icon" 
+    type="image/png" 
+    sizes="192x192"  
+    href="./assets/favicon/android-icon-192x192.png">
+    <link rel="icon" 
+    type="image/png" 
+    sizes="32x32" 
+    href="./assets/favicon/favicon-32x32.png">
+    <link rel="icon" 
+    type="image/png" 
+    sizes="96x96" 
+    href="./assets/favicon/favicon-96x96.png">
+    <link rel="icon" 
+    type="image/png" 
+    sizes="16x16" 
+    href="./assets/favicon/favicon-16x16.png">
+    <link rel="manifest" 
+    href="./assets/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="./assets/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <!-- reset css -->
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <!-- embed fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- style css -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+   <header>
+      <div class="content">
+        <div class="header__banner">
+            <a href="">
+                <img src="./assets/img/BG2.jpg" alt="ảnh quảng cáo" class="header__banner__img">
+            </a>
+        </div>
+        <div class="header__top body">
+            <div class="header__top__logo">
+                <a href="">
+                    <img src="https://cdnweb.dantri.com.vn/dist/static-logo.1-0-1.742f36bc45f3443d0e59.svg" alt="" class="header__top__logo__header">
+                </a>
+            </div>
+            <div class="header__top__version body justify-between">
+                <a href="">
+                    <img src="./assets/favicon/android-icon-36x36.png" alt="" class="header__top__version__logo">
+                </a>
+                 <a href="">
+                    <div class="header__top__version__eng">International Version</div>
+                 </a>   
+            </div>
+            <div class="header__top__temp body justify__between">
+                <div class="header__top__temp__location">
+                    <div class="header__top__temp__location__city">Hà Nội</div>
+                    <span class="header__top__temp__location__time">Chủ nhật, 13/08/2023</span>
+                </div>
+                <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" width="35" height="35">
+                    <path d="M60.156 68.75c18.985 0 34.375-15.39 34.375-34.375S79.141 0 60.156 0C41.172 0 25.781 15.39 25.781 34.375S41.171 68.75 60.156 68.75Z" fill="#5A6164"></path>
+                    <path d="M34.375 25.781C15.391 25.781 0 41.171 0 60.156a8.569 8.569 0 0 0 8.594 8.594h51.562a8.569 8.569 0 0 0 8.594-8.594c0-18.984-15.39-34.375-34.375-34.375Z" fill="#374043"></path>
+                    <path d="M75 100c13.807 0 25-11.193 25-25S88.807 50 75 50 50 61.193 50 75s11.193 25 25 25Z" fill="#CFFFFF" fill-opacity="0.8"></path>
+                    <path d="M56.25 68.75c-13.828 0-25 11.172-25 25 0 3.438 2.813 6.25 6.25 6.25H75c3.438 0 6.25-2.813 6.25-6.25 0-13.828-11.172-25-25-25Z" fill="#CDFAFA"></path>
+                </svg>
+                <!-- <img src="" alt="" class="temp_icon"> -->
+                <span class="header__top__temp__c">34°C</span>
+            </div>
+            <div class="header__top__action body justify__between">
+                <div class="header__top__action__login body justify__between">
+                    <a href="" class="header__top__action__login__text">Đăng nhập</a>
+                    <a href="" class="header__top__action__login__icon">
+                        <svg aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M20 21V19C20 17.9391 19.5786 16.9217 18.8284 16.1716C18.0783 15.4214 17.0609 15 16 15H8C6.93913 15 5.92172 15.4214 5.17157 16.1716C4.42143 16.9217 4 17.9391 4 19V21" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M12 11C14.2091 11 16 9.20914 16 7C16 4.79086 14.2091 3 12 3C9.79086 3 8 4.79086 8 7C8 9.20914 9.79086 11 12 11Z" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                        </svg>
+                    </a>
+                </div>
+                <a href="" class="header__top__action__link">
+                    <svg aria-labelledby="svg-search-title" aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <title id="svg-search-title">Tìm kiếm</title>
+                        <path d="M11 19C15.4183 19 19 15.4183 19 11C19 6.58172 15.4183 3 11 3C6.58172 3 3 6.58172 3 11C3 15.4183 6.58172 19 11 19Z" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <path d="M21 20.9999L16.65 16.6499" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                    </svg>
+                </a>
+            </div>
+        </div>
+        <div class="header-nav body">
+            <div class="nav__logo">
+                <a href="" class="nav__logo--link">
+                    <svg aria-labelledby="svg-home" aria-hidden="true" width="28" height="28" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <title id="svg-home">Trang chủ</title>
+                        <path d="M16.7334 22.6665H15.2667C14.9353 22.6665 14.6667 22.3979 14.6667 22.0665V19.2665C14.6667 18.9351 14.9353 18.6665 15.2667 18.6665H16.7334C17.0647 18.6665 17.3334 18.9351 17.3334 19.2665V22.0665C17.3334 22.3979 17.0647 22.6665 16.7334 22.6665Z" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <path d="M4 12.6665L16 5.33317L28 12.6665" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <path d="M25.3334 17.3335V26.0668C25.3334 26.3982 25.0647 26.6668 24.7334 26.6668H7.26669C6.93532 26.6668 6.66669 26.3982 6.66669 26.0668V17.3335" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                    </svg>
+                </a>
+            </div>
+            <ul class="nav__list body">
+                <li class="nav__item">
+                    <a href="https://dantri.com.vn/tin-moi-nhat.htm" class="nav__link">MỚI NHẤT</a>
+                </li>
+                <li class="nav__item">
+                    <a href="https://dantri.com.vn/tin-moi-nhat.htm" class="nav__link">VIDEO</a>
+                </li>
+                <li class="nav__item">
+                    <a href="https://dantri.com.vn/tin-moi-nhat.htm" class="nav__link">XÃ HỘI</a>
+                </li>
+                <li class="nav__item">
+                    <a href="https://dantri.com.vn/tin-moi-nhat.htm" class="nav__link">THẾ GIỚI</a>
+                </li>
+                <li class="nav__item">
+                    <a href="https://dantri.com.vn/tin-moi-nhat.htm" class="nav__link">KINH DOANH</a>
+                </li>
+                <li class="nav__item">
+                    <a href="https://dantri.com.vn/tin-moi-nhat.htm" class="nav__link">BẤT ĐỘNG SẢN</a>
+                </li>
+                <li class="nav__item">
+                    <a href="https://dantri.com.vn/tin-moi-nhat.htm" class="nav__link">THỂ THAO</a>
+                </li>
+                <li class="nav__item">
+                    <a href="https://dantri.com.vn/tin-moi-nhat.htm" class="nav__link">VIỆC LÀM</a>
+                </li>
+                <li class="nav__item">
+                    <a href="https://dantri.com.vn/tin-moi-nhat.htm" class="nav__link">NHÂN ÁI</a>
+                </li>
+                <li class="nav__item">
+                    <a href="https://dantri.com.vn/tin-moi-nhat.htm" class="nav__link">SỨC KHOẺ</a>
+                </li>
+                <li class="nav__item">
+                    <a href="https://dantri.com.vn/tin-moi-nhat.htm" class="nav__link">VĂN HOÁ</a>
+                </li>
+                <li class="nav__item">
+                    <a href="https://dantri.com.vn/tin-moi-nhat.htm" class="nav__link">GIẢI TRÍ</a>
+                </li>
+                <li class="nav__item">
+                    <a href="https://dantri.com.vn/tin-moi-nhat.htm" class="nav__link">XE ++</a>
+                </li>
+                <li class="nav__item">
+                    <a href="https://dantri.com.vn/tin-moi-nhat.htm" class="nav__link">SỨC MẠNH SỐ</a>
+                </li>
+                <li class="nav__item">
+                    <a href="https://dantri.com.vn/tin-moi-nhat.htm" class="nav__link">GIÁO DỤC</a>
+                </li>
+                <li class="nav__item">
+                    <a href="https://dantri.com.vn/tin-moi-nhat.htm" class="nav__link">AN SINH</a>
+                </li>
+                <li class="nav__item">
+                    <a href="https://dantri.com.vn/tin-moi-nhat.htm" class="nav__link">PHÁP LUẬT</a>
+                </li>
+                <li class="nav__item">
+                    <a href="https://dantri.com.vn/tin-moi-nhat.htm" class="nav__link">* * *</a>
+                </li>
+            </ul>
+        </div>
+      </div>
+   </header>
+   <main>
+        <div class="part__1 part__1__7__8">
+            <div class="content">
+                <div class="body">
+                    <div class="part__1__left left__part__1__7__8">
+                        <section class="part__1__left__top left__top__part__1__7__8">
+                            <a href="">
+                                <img src="./assets/img/nga.webp" alt="" class="part__1__left__top__img img__left__part__1__7__8">
+                            </a>
+                            <a href="">
+                                <h3 class="part__1__left__top__title title__left__1__7__8">Nga tấn công dồn dập, chặn đà tiến của Ukraine ở "tâm chấn" Kharkov</h3>
+                            </a>
+                        </section>
+                        <section class="part__1__left__bottom">
+                            <a href="">
+                                <img src="./assets/img/chùa.webp" alt="" class="part__1__left__bottom__img img__left__part__1__7__8">
+                            </a>
+                            <a href="">
+                                <h3 class="part__1__left__bottom__title title__left__1__7__8">Công an xác minh người xúi giục Thích Tâm Phúc phát ngôn, tạo dư luận xấu</h3>
+                            </a>
+                        </section>
+                    </div>
+                    <div class="part__1__between betwwen__part__1__7__8">
+                        <section class="part__1__between">
+                            <a href="">
+                                <img src="./assets/img/hagl 1.webp" alt="" class="part__1__between__img img__between__part__1__7__8">  
+                            </a>
+                            <a href="">
+                                <h2 class="part__1__between__title title__betwwen__1__7__8">Vụ 4 người CLB HAGL gặp nạn: Tài xế ô tô con không tin mình còn sống</h2>
+                            </a>
+                            <a href="">
+                                <p class="part__1__between__desc desc__betwwen__1__7__8">Tài xế Nguyễn Tú Sinh, người lái ô tô chở các thành viên CLB HAGL, 
+                                    không tin mình còn sống, sau vụ tai nạn thảm khốc khiến 3 người đi cùng xe tử vong tại chỗ.
+                                </p>
+                            </a>
+                        </section>
+                    </div>
+                    <div class="part__1__right right__part__1__7__8">
+                        <section class="part__1__right__1 body right__item__part__1">
+                            <div class="part__1__right__1__info">
+                                <a href="">
+                                    <p class="right__1__info__title">Photo St<strong>o</strong>ry</p>
+                                </a>
+                                <a href="">
+                                    <p class="right__1__info__desc desc__right__1__7__8">Từ trẻ em đến cụ bà U90 dậy từ 4h sáng đồng diễn yoga cùng 5.000 người</p>
+                                </a>
+                            </div>
+                            <a href="">
+                                <img src="./assets/img/part__1__right__1__img.webp" alt="" class="part__1__right__1__img img__right__part__1__7__8">
+                            </a>
+                        </section>
+                        <section class="part__1__right__2 body right__item__part__1">
+                            <div class="part__1__right__2__info">
+                                <a href="">
+                                    <p class="right__2__info__desc desc__right__1__7__8">Vụ 4 người CLB HAGL gặp nạn: Mẹ của tiền đạo Paollo đang sang Việt Nam</p>
+                                </a>
+                            </div>
+                            <a href="">
+                                <img src="./assets/img/part__1__right__2__img.webp" alt="" class="part__1__right__2__img img__right__part__1__7__8">
+                            </a>
+                        </section>
+                        <section class="part__1__right__3 body right__item__part__1">
+                            <div class="part__1__right__3__info">
+                                <a href="">
+                                    <p class="right__3__info__desc desc__right__1__7__8">Chiến sự Ukraine ngày 13/8: Kupyansk "đỏ lửa", Nga tiếp tục tấn công mạnh</p>
+                                </a>
+                            </div>
+                            <a href="">
+                                <img src="./assets/img/part__1__right__3__img.webp" alt="" class="part__1__right__3__img img__right__part__1__7__8">
+                            </a>
+                        </section>
+                        <section class="part__1__right__4 body">
+                            <div class="part__1__right__4__info">
+                                <a href="">
+                                    <img src="./assets/img/tâm điểm.svg" alt="" class="right__4__info__title">
+                                </a>
+                                <a href="">
+                                    <p class="right__4__info__desc desc__right__1__7__8">Hội cổ động viên Nam Định giải thể: Khi người hâm mộ quay lưng!</p>
+                                </a>
+                            </div>
+                            <article class="part__1__right__4__content">
+                                <a href="">
+                                    <img src="./assets/img/part__1__right__4__img.webp" alt="" class="part__1__right__4__img img__right__part__1__7__8">
+                                </a>
+                                <a href="">
+                                    <div class="part__1__right__4__name">PHÙNG NGUYỄN</div>
+                                </a>
+                                <a href="">
+                                    <div class="part__1__right__4__work">Nhà báo</div>
+                                </a>
+                            </article>
+                            
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="part__2">
+            <div class="content">
+                <div class="body">
+                    <div class="part__2__left">
+                        <section class="part__2__left__1">
+                            <a href="">
+                                <div class="part__2__left__1__tittle">DÂN TRÍ <span>SPOTLIGHT</span></div>
+                            </a>
+                            <a href="">
+                                <img src="./assets/img/part__2__left__1.webp" alt="" class="part__2__left__1__img">
+                            </a>
+                            <a href="">
+                                <p class="part__2__left__1__desc">Đường quy hoạch qua khu đô thị chục nghìn tỷ đồng cạnh vành đai 3 Hà Nội</p>
+                            </a>
+                        </section>
+                        <section class="part__2__left__2">
+                            <a href="">
+                                <img src="./assets/img/part__2__left__2.webp" alt="" class="part__2__left__2__img">
+                            </a>
+                            <a href="">
+                                <p class="part__2__left__2__desc">Cục trưởng C06: VNeID chuyển cơ chế "xin__cho" sang nền "hành chính phục vụ"</p>
+                            </a>
+                        </section>
+                        <section class="part__2__left__3">
+                            <div class="part__2__left__3__top">
+                                <div class="part__2__left__3__top__1 body justify__between">
+                                    <a href="part__2__left__3__top__logo" target="" rel="">
+                                        <img class="" src="./assets/img/part__2__left__3__logo.svg" alt="" width="95" height="25">
+                                    </a>
+                                    <div class="part__2__left__3__top__indexa body justify__between">
+                                        <a class="" href="" target="" rel="">
+                                          <div class="part__2__left__3__top__vnindex">VNINDEX</div>
+                                        </a>
+                                        <a class="part__2__left__3__top__indexb" href="" target="" rel="">
+                                            <span class="part__2__left__3__top__indexb1">1,236</span>
+                                             <div class="flex body">
+                                                <div class="part__2__left__3__top__indexb2">3</div>
+                                                 &nbsp;
+                                                <span class="part__2__left__3__top__indexb3">(0%)</span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="part__2__left__3__top__2">
+                                    <div id="priceChart" class="w__full h-22 flex items-center relative justify-center">
+                                        <div class="tv-lightweight-charts" style="overflow: hidden; width: 233.594px; height: 88px; user-select: none; -webkit-tap-highlight-color: transparent;">
+                                            <table cellspacing="0" style="height: 88px; width: 233.594px;">
+                                                <tr>
+                                                    <td style="padding: 0px;">
+                                                        <div style="height: 66px; overflow: hidden; width: 52px; left: 0px; position: relative; min-width: 52px; cursor: default;">
+                                                            <canvas width="65" height="82" style="width: 52px; height: 66px; position: absolute; z-index: 1; left: 0px; top: 0px;"></canvas>
+                                                            <canvas width="65" height="82" style="width: 52px; height: 66px; position: absolute; z-index: 2; left: 0px; top: 0px;"></canvas>
+                                                        </div>
+                                                    </td>
+                                                    <td style="padding: 0px; position: relative; width: 181.594px; height: 66px;">
+                                                        <div style="width: 100%; height: 100%; position: relative; overflow: hidden;">
+                                                            <canvas width="226" height="82" style="width: 181.594px; height: 66px; position: absolute; z-index: 1; left: 0px; top: 0px;"></canvas>
+                                                            <canvas width="226" height="82" style="width: 181.594px; height: 66px; position: absolute; z-index: 2; left: 0px; top: 0px;"></canvas>
+                                                        </div>
+                                                    </td>
+                                                    <td style="padding: 0px;"></td>
+                                                </tr>
+                                                <tr>
+                                                    <td style="padding: 0px;">
+                                                        <div style="width: 52px; height: 22px; overflow: hidden; min-width: 52px;">
+                                                            <canvas width="65" height="27" style="width: 52px; height: 22px;"></canvas>
+                                                        </div>
+                                                    </td>
+                                                    <td style="height: 22px; padding: 0px; width: 181.594px; cursor: default;">
+                                                        <div style="width: 100%; height: 100%; position: relative; overflow: hidden;">
+                                                            <canvas width="226" height="27" style="width: 181.594px; height: 22px; position: absolute; z-index: 1; left: 0px; top: 0px;"></canvas>
+                                                            <canvas width="226" height="27" style="width: 181.594px; height: 22px; position: absolute; z-index: 2; left: 0px; top: 0px;"></canvas>
+                                                        </div>
+                                                    </td>
+                                                    <td style="padding: 0px;"></td>
+                                                </tr>
+                                            </table>
+                                        </div>
+                                        <div class="absolute bg-black rounded text-white text-sm z-20 opacity-80" style="display: none; left: 18px; top: 35px;">
+                                            <div class="text-sm px-1 pt-1">1232.28</div>
+                                            <div class="text-xs px-1 pb-1">9:20, 14/8/2023</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="part__2__left__3__bottom">
+                                <div class="part__2__left__3__bottom__1">giá xăng (nvđ/lít)</div>
+                                <div class="part__2__left__3__bottom__2"></div>
+                                <div class="part__2__left__3__bottom__3"></div>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="part__2__between">
+                        <section class="part__2__between__1 part__2__between__content body">
+                            <a href="">
+                                <img src="./assets/img/part__2__between__1.webp" alt="" class="part__2__between__img">  
+                            </a>
+                            <a href="">
+                                <p class="part__2__between__desc">Xóm cà phê đường tàu đông "như chưa từng có lệnh cấm", quán xá tấp nập</p>
+                            </a>
+                        </section>
+                        <section class="part__2__between__2 part__2__between__content body">
+                            <a href="">
+                                <img src="./assets/img/part__2__between__2.webp" alt="" class="part__2__between__img">  
+                            </a>
+                            <a href="">
+                                <p class="part__2__between__desc">Vì sao Cần Thơ đào xới 32 tuyến đường, "lô cốt" ngổn ngang?</p>
+                            </a>
+                        </section>
+                        <section class="part__2__between__3 part__2__between__content body">
+                            <a href="">
+                                <img src="./assets/img/part__2__between__3.webp" alt="" class="part__2__between__img">  
+                            </a>
+                            <a href="">
+                                <p class="part__2__between__desc">Bị "chém" 16 triệu đồng tiền xe cấp cứu, cha phải bỏ xác con vào thùng xốp</p>
+                            </a>
+                        </section>
+                        <section class="part__2__between__4 part__2__between__content body">
+                            <a href="">
+                                <img src="./assets/img/part__2__between__4.webp" alt="" class="part__2__between__img">  
+                            </a>
+                            <a href="">
+                                <p class="part__2__between__desc">Mẹ phải rời viện do cạn tiền, người đàn ông lại bàng hoàng vì vợ nguy kịch</p>
+                            </a>
+                        </section>
+                        <section class="part__2__between__5 part__2__between__content body">
+                            <a href="">
+                                <img src="./assets/img/part__2__between__5.webp" alt="" class="part__2__between__img">  
+                            </a>
+                            <a href="">
+                                <p class="part__2__between__desc">Mất hơn 4 tỷ đồng một tháng vì lan đột biến: Bài học đau đớn của một 9X</p>
+                            </a>
+                        </section>
+                        <section class="part__2__between__6">
+                            <div class="part__2__between__6__title">DÂN TRÍ <span>CÁ NHÂN HÓA</span></div>
+                            <div class="part__2__between__6__top part__2__between__content body">
+                                <a href="">
+                                    <img src="./assets/img/part__2__between__6__top.webp" alt="" class="part__2__between__img">  
+                                </a>
+                                <a href="">
+                                    <p class="part__2__between__desc">Nữ sinh Bắc Giang cao 1,76m quyết tâm 3 lần dự thi hoa hậu</p>
+                                </a>
+                            </div>
+                            <div class="part__2__between__6__bottom part__2__between__content body">
+                                <a href="">
+                                    <img src="./assets/img/part__2__between__6__bottom.webp" alt="" class="part__2__between__img">  
+                                </a>
+                                <a href="">
+                                    <p class="part__2__between__desc">Clip "tai nạn bất ngờ và đáng sợ trong phòng gym" gây sốc internet tuần qua</p>
+                                </a>
+                            </div>  
+                        </section>
+                    </div>
+                    <div class="part__2__right">
+                        <section class="part__2__right__1">       
+                        </section>
+                        <section class="part__2__right__2">
+                            <img src="./assets/img/part__2__right__2.jpg" alt="" class="part__2__right__2__img">
+                        </section>             
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="part__3">
+            <div class="content">
+                <div class="body">
+                    <div class="part__3__left">
+                        <article class="part__3__left__1">
+                            <section class="part__3__left__1__1 content__part__3__left">
+                                <div class="part__3__left__1__1__image">
+                                    <a href="">
+                                        <img src="./assets/img/part__3__left__1__1.webp" alt="" class="part__3__left__img">
+                                    </a>
+                                </div>
+                                <div class="part__3__left__1__1__info info__part__3__left">
+                                    <a href="">
+                                        <h3 class="part__3__left__1__1__title title__part__3__left">Viện thẩm mỹ ở Đà Nẵng cho lao công căng da mặt cho khách</h3>
+                                    </a>
+                                    <a href="">
+                                        <p class="part__3__left__1__1__desc desc__part__3__left">Kiểm tra một cơ sở thẩm mỹ ở Đà Nẵng, công an phát hiện một nhân viên lao công tại đây đang... phẫu thuật...</p>
+                                    </a>
+                                </div>
+                            </section>
+                            <section class="part__3__left__1__2 content__part__3__left">
+                                <div class="part__3__left__1__2__image">
+                                    <a href="" class="">
+                                        <img src="./assets/img/part__3__left__1__2.webp" alt="" class="part__3__left__img">
+                                    </a>  
+                                </div>
+                                <div class="part__3__left__1__2__info info__part__3__left">
+                                    <a href="">
+                                        <h3 class="part__3__left__1__2__title title__part__3__left">Cháy rừng thiêu rụi thị trấn du lịch ở Hawaii, gần 100 người thiệt mạng</h3>
+                                    </a>
+                                    <a href="">
+                                        <p class="part__3__left__1__2__desc desc__part__3__left">Thị trấn du lịch nghỉ dưỡng Lahaina ở Hawaii (Mỹ) gần như bị thiêu rụi do cháy rừng gần một tuần qua. Đây có...</p>
+                                    </a> 
+                                </div>
+                            </section>
+                            <section class="part__3__left__1__3 content__part__3__left">
+                                <div class="part__3__left__1__3__image">
+                                    <a href="">
+                                        <img src="./assets/img/part__3__left__1__3.webp" alt="" class="part__3__left__img">
+                                    </a>   
+                                </div>
+                                <div class="part__3__left__1__3__info info__part__3__left">
+                                    <a href="">
+                                        <h3 class="part__3__left__1__3__title title__part__3__left">Sau hơn 1 năm bị bắt, ông Trịnh Văn Quyết còn bao nhiêu cổ phần tại FLC?</h3>
+                                    </a>
+                                    <a href="">
+                                        <p class="part__3__left__1__3__desc desc__part__3__left">Ông Trịnh Văn Quyết đang sở hữu trên 215,4 triệu cổ phiếu FLC tương ứng 30,34% vốn điều lệ, trong khi hầu hết lãnh...</p>
+                                    </a>
+                                </div>
+                            </section>
+                            <section class="part__3__left__1__4 content__part__3__left">
+                                <div class="part__3__left__1__4__image">
+                                    <a href="">
+                                        <img src="./assets/img/part__3__left__1__4.webp" alt="" class="part__3__left__img">
+                                    </a>
+                                </div>
+                                <div class="part__3__left__1__4__info info__part__3__left">
+                                    <a href="">
+                                        <h3 class="part__3__left__1__4__title title__part__3__left">Công ty địa ốc của đại gia cá tầm tại Nha Trang thoát lỗ ngoạn mục</h3>
+                                    </a>
+                                    <a href="">
+                                        <p class="part__3__left__1__4__desc desc__part__3__left">Năm 2022, công ty này lỗ gần 681 triệu đồng mỗi ngày. Thế nhưng sang nửa đầu năm nay, doanh nghiệp làm ăn khả...</p>
+                                    </a>
+                                </div>
+                            </section>
+                            <section class="part__3__left__1__5 content__part__3__left last__content__part__3__left">
+                                <div class="part__3__left__1__5__image">
+                                    <a href="">
+                                        <img src="./assets/img/part__3__left__1__5.webp" alt="" class="part__3__left__img">
+                                    </a>
+                                </div>
+                                <div class="part__3__left__1__5__info info__part__3__left">
+                                    <a href="">
+                                        <h3 class="part__3__left__1__5__title title__part__3__left">U23 Việt Nam đến Thái Lan, sẵn sàng cho giải Đông Nam Á</h3>
+                                    </a>
+                                    <a href="">
+                                        <p class="part__3__left__1__5__desc desc__part__3__left">Đội tuyển U23 Việt Nam có mặt tại Bangkok (Thái Lan) sáng nay (14/8), chuẩn bị bước vào hành trình tại giải U23 Đông...</p>
+                                    </a>
+                                </div>
+                            </section>
+                        </article>
+                        <article class="part__3__left__2">
+                            <div class="part__3__left__2__h2">
+                                <a href="">
+                                    <h2 class="part__3__left__2__title adv__title">DOANH NGHIỆP TIÊN PHONG - VIỆT NAM HÙNG CƯỜNG</h2>
+                                </a>
+                            </div>
+                            <article class="part-3__left__2__1 content__part__3__left">
+                                <section class="part__3__left__2__1__left">
+                                    <div class="part__3__left__2__1__left__image">
+                                        <a href="">
+                                            <img src="./assets/img/part__3__left__2__1__left.webp" alt="" class="part__3__left__2__1__left__img">
+                                        </a>
+                                    </div>
+                                    <div class="part__3__left__2__1__left__content">
+                                        <a href="">
+                                            <h3 class="part__3__left__2__1__left__title">"Chìa khóa" cho sự bền vững của đường ống cấp thoát nước EUROPIPE</h3>
+                                        </a>
+                                    </div>
+                                </section>
+                                <section class="part__3__left__2__1__right">
+                                    <div class="part__3__left__2__1__right__image">
+                                        <a href="">
+                                            <img src="./assets/img/part__3__left__2__1__right.webp" alt="" class="part__3__left__2__1__right__img">
+                                        </a>
+                                    </div>
+                                    <div class="part__3__left__2__1__right__content">
+                                        <a href="">
+                                            <h3 class="part__3__left__2__1__right__title title__part__3__left">Lời giải bài toán thiết bị điện cho các dự án nhà ở xã hội</h3>
+                                        </a>
+                                    </div>
+                                </section>
+                            </article>
+                            <section class="part__3__left__2__2 content__part__3__left">
+                                <div class="part__3__left__2__2__image">
+                                    <a href="">
+                                        <img src="./assets/img/part__3__left__2__2.webp" alt="" class="part__3__left__img">
+                                    </a>
+                                </div>
+                                <div class="part__3__left__2__2__info info__part__3__left">
+                                    <a href="">
+                                        <h3 class="part__3__left__2__2__title title__part__3__left">Tài trợ chi phí "giải cứu" 2 cá thể voi ở công viên Thủ Lệ</h3>
+                                    </a>
+                                    <a href="">
+                                        <p class="part__3__left__2__2__desc desc__part__3__left">Tổ chức Động vật châu Á sẵn sàng tài trợ chi phí vận chuyển 2 cá thể voi ở Vườn thú Hà Nội về...</p>
+                                    </a>
+                                </div>
+                            </section>
+                            <section class="part__3__left__2__3 content__part__3__left">
+                                <div class="part__3__left__2__3__image">
+                                    <a href="">
+                                        <img src="./assets/img/part__3__left__2__3.webp" alt="" class="part__3__left__img">
+                                    </a>
+                                </div>
+                                <div class="part__3__left__2__3__info info__part__3__left">
+                                    <a href="">
+                                        <h3 class="part__3__left__2__3__title title__part__3__left">Mẹ phải rời viện do cạn tiền, người đàn ông lại bàng hoàng vì vợ nguy kịch</h3>
+                                    </a>
+                                    <a href="">
+                                        <p class="part__3__left__2__3__desc desc__part__3__left">"Cô ấy là người bạn đời, là mẹ của con. Mình không dám nói trước điều gì, chỉ dành hết tình cảm lo cho...</p>
+                                    </a>
+                                </div>
+                            </section>
+                            <section class="part__3__left__2__4 content__part__3__left">
+                                <div class="part__3__left__2__4__image">
+                                   <a href="">
+                                    <img src="./assets/img/part__3__left__2__4.webp" alt="" class="part__3__left__img">
+                                </a>
+                                </div>
+                                <div class="part__3__left__2__4__info info__part__3__left">
+                                    <a href="">
+                                        <h3 class="part__3__left__2__4__title title__part__3__left">2 trẻ viêm cơ tim nguy kịch: Bắt đầu từ dấu hiệu sốt, ho, đau bụng</h3>
+                                    </a>
+                                    <a href="">
+                                        <p class="part__3__left__2__4__desc desc__part__3__left">Trong 5 ngày, Bệnh viện Nhi Trung ương tiếp nhận 2 ca viêm cơ tim nguy kịch, phải thực hiện kỹ thuật ECMO mới...</p>
+                                    </a>
+                                </div>
+                            </section>
+                            <section class="part__3__left__2__5 content__part__3__left">
+                                <div class="part__3__left__2__5__image">
+                                    <a href="">
+                                        <img src="./assets/img/part__3__left__2__5.webp" alt="" class="part__3__left__img">
+                                    </a>
+                                </div>
+                                <div class="part__3__left__2__5__info info__part__3__left">
+                                    <a href="">
+                                        <h3 class="part__3__left__2__5__title title__part__3__left">Thư cảm ơn sau "Ngày hội yoga Dân trí"</h3>
+                                    </a>
+                                    <a href="">
+                                        <p class="part__3__left__2__5__desc desc__part__3__left">Báo điện tử Dân trí gửi lời cảm ơn các nhà tài trợ, các tổ chức, cá nhân, đặc biệt 5.000 yogi đã làm...</p>
+                                    </a>
+                                </div>
+                            </section>
+                            <section class="part__3__left__2__6 content__part__3__left last__content__part__3__left">
+                                <div class="part__3__left__2__6__image">
+                                    <a href="">
+                                        <img src="./assets/img/part__3__left__2__6.webp" alt="" class="part__3__left__img">
+                                    </a>
+                                </div>
+                                <div class="part__3__left__2__6__info info__part__3__left">
+                                    <a href="">
+                                        <h3 class="part__3__left__2__6__title title__part__3__left">Nhan sắc không tuổi của Trương Bá Chi ở tuổi 43</h3>
+                                    </a>
+                                    <a href="">
+                                        <p class="part__3__left__2__6__desc desc__part__3__left">Những năm 20 tuổi, Trương Bá Chi được mệnh danh là "ngọc nữ" của màn ảnh Hong Kong nhờ vẻ ngoài trong trẻo, thanh...</p>
+                                    </a>
+                                </div>
+                            </section>
+                        </article>
+                        <article class="part__3__left__3">
+                            <div class="part__3__left__3__advert__h2">
+                                <a href="">
+                                    <h2 class="part__3__left__3__advert__title adv__title">SỨC KHỎE CHỦ ĐỘNG</h2>
+                                </a>
+                            </div>
+                            <article class="part__3__left__3__advert body">
+                                <section class="part__3__left__3__adv__left">
+                                    <a href="">
+                                        <img src="./assets/img/part__3__left__3__adv__left.webp" alt="" class="part__3__left__3__adv__img" width="259" height="172">
+                                    </a>
+                                    <a href="">
+                                        <h3 class="part__3__left__3__adv__title">Ung thư đại trực tràng ngày một trẻ hóa</h3>
+                                    </a>
+                                </section>
+                                <div class="part__3__left__3__adv__right">
+                                    <div class="part__3__left__3__adv__right__top">
+                                        <div class="part__3__left__3_adv__right__top__name body">
+                                            <a href="">
+                                                <img src="./assets/img/part__3__left__3__adv__right__top__name__icon.png" alt="" class="part__3__left__3__adv__right__top__name__icon" width="24" height="24">
+                                            </a>
+                                            <a href="">
+                                                <p class="part__3__left__3__adv__right__top__name__name">Trần Kiều Chi</p>
+                                            </a>
+                                        </div>
+                                        <a href="">
+                                            <h3 class="part__3__left__3__adv__right__top__title">Siêu âm tim thai nhi có nốt tăng âm có sao không?</h3>
+                                        </a>
+                                        <a href="">
+                                            <p class="part__3__left__3__adv__right__top__desc">Bác sĩ ơi, em đang mang thai ở tuần 23, lúc khám ở viện tim bác...</p>
+                                        </a>
+                                    </div>
+                                    <div class="part__3__left__3__adv__right__bottom">
+                                        <div class="part__3__left__3_adv__right__bottom__name body">
+                                            <a href="">
+                                                <img src="./assets/img/part__3__left__3__adv__right__top__name__icon.png" alt="" class="part__3__left__3__adv__right__bottom__name__icon" width="24" height="24">
+                                            </a>
+                                            <a href="">
+                                                <p class="part__3__left__3__adv__right__bottom__name__name">Châu Loan</p>
+                                            </a>
+                                        </div>
+                                        <a href="">
+                                            <h3 class="part__3__left__3__adv__right__bottom__title">Những dấu hiệu dễ nhận biết khi mắc bệnh béo phì?</h3>
+                                        </a>
+                                        <a href="">
+                                            <p class="part__3__left__3__adv__right__bottom__desc">Chào bác sĩ, nhờ bác sĩ tư vấn giúp em một số dấu hiệu nhận biết...</p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </article>
+                            <section class="part__3__left__3__1 content__part__3__left">
+                                <div class="part__3__left__3__1__image">
+                                    <a href="">
+                                        <img src="./assets/img/part__3__left__3__1.webp" alt="" class="part__3__left__img">
+                                    </a>
+                                </div>
+                                <div class="part__3__left__3__1__info info__part__3__left">
+                                    <a href="">
+                                        <h3 class="part__3__left__3__1__title title__part__3__left">Ô tô bị quệt rụng gương vì chuyển làn thiếu quan sát, là bài học cho lái xe</h3>
+                                    </a>
+                                    <a href="">
+                                        <p class="part__3__left__3__1__desc desc__part__3__left">Trong một tình huống tưởng chừng đơn giản, khó xảy ra va chạm, khi các xe chạy chậm, chiếc Mitsubishi Xpander chuyển...</p>
+                                    </a>
+                                </div>
+                            </section>
+                            <section class="part__3__left__3__2 content__part__3__left">
+                                <div class="part__3__left__3__2__image">
+                                    <a href="">
+                                        <img src="./assets/img/part__3__left__3__2.webp" alt="" class="part__3__left__img">
+                                    </a>
+                                </div>
+                                <div class="part__3__left__3__2__info info__part__3__left">
+                                    <a href="">
+                                        <h3 class="part__3__left__3__2__title title__part__3__left">Từ vụ bắt cóc đòi 15 tỷ tiền chuộc, cha mẹ trăm phương ngàn kế bảo vệ con</h3>
+                                    </a>
+                                    <a href="">
+                                        <p class="part__3__left__3__2__desc desc__part__3__left">Đọc tin bé trai 7 tuổi bị bắt cóc đòi 15 tỷ đồng tiền chuộc, nhiều phụ huynh quyết "cấm" con đi ra ngoài...</p>
+                                    </a>
+                                </div>
+                            </section>
+                            <section class="part__3__left__3__3 content__part__3__left">
+                                <div class="part__3__left__3__3__image">
+                                    <a href="">
+                                        <img src="./assets/img/part__3__left__3__3.webp" alt="" class="part__3__left__img">
+                                    </a>
+                                </div>
+                                <div class="part__3__left__3__3__info info__part__3__left">
+                                    <a href="">
+                                        <h3 class="part__3__left__3__3__title title__part__3__left">Dùng AirTag để theo dấu ô tô bị mất cắp và cái kết khó ngờ</h3>
+                                    </a>
+                                    <a href="">
+                                        <p class="part__3__left__3__3__desc desc__part__3__left">Một người phụ nữ Canada đã lần theo dấu vết của AirTag để đuổi theo chiếc ô tô bị lấy cắp của mình. Nhưng...</p>
+                                    </a>
+                                </div>
+                            </section>
+                            <section class="part__3__left__3__4 content__part__3__left">
+                                <div class="part__3__left__3__4__image">
+                                    <a href="">
+                                        <img src="./assets/img/part__3__left__3__4.webp" alt="" class="part__3__left__img">
+                                    </a>
+                                </div>
+                                <div class="part__3__left__3__4__info info__part__3__left">
+                                    <a href="">
+                                        <h3 class="part__3__left__3__4__title title__part__3__left">Cuộc sống của nữ tiến sĩ xinh đẹp "lao thẳng xuống địa ngục" khi sinh con</h3>
+                                    </a>
+                                    <a href="">
+                                        <p class="part__3__left__3__4__desc desc__part__3__left">Chạy xe về đón con trên dòng đường kẹt cứng, chị Th. òa khóc với suy nghĩ "giá như không sinh con"... Người mẹ...</p>
+                                    </a>
+                                </div>
+                            </section>
+                            <section class="part__3__left__3__5 content__part__3__left last__content__part__3__left">
+                                <div class="part__3__left__3__5__image">
+                                    <a href="">
+                                        <img src="./assets/img/part__3__left__3__5webp.webp" alt="" class="part__3__left__img">
+                                    </a>
+                                </div>
+                                <div class="part__3__left__3__5__info info__part__3__left">
+                                    <a href="">
+                                        <h3 class="part__3__left__3__5__title title__part__3__left">5 ngày trốn chui lủi, kẻ giết người ăn đồ cúng để duy trì sự sống</h3>
+                                    </a>
+                                    <a href="">
+                                        <p class="part__3__left__3__5__desc desc__part__3__left">Sau khi gây ra cái chết cho hàng xóm, Thức vào rừng lẩn trốn, ăn hoa quả, đồ cúng ở nghĩa trang, đền chùa....</p>
+                                    </a>
+                                </div>
+                            </section>
+                        </article>
+                        <article class="part__3__left__4">
+                            <div class="part__3__left__4__advert__h2">
+                                <a href="">
+                                    <h2 class="part__3__left__4__advert__title adv__title">TIẾT KIỆM ĐIỆN</h2>
+                                </a>
+                            </div>
+                            <article class="part__3__left__4__advert body">
+                                <section class="part__3__left__4__adv__left">
+                                    <a href="">
+                                        <img src="./assets/img/part__3__left__4__left.webp" alt="" class="part__3__left__4__adv__left__img" width="168" height="112">
+                                    </a>
+                                    <a href="">
+                                        <h3 class="part__3__left__4__adv__left__title">Giải mã lý do đưa điều hòa Casper Việt Nam lên vị trí số một thị phần tại Việt Nam</h3>
+                                    </a>
+                                </section>
+                                <section class="part__3__left__4__adv__betw">
+                                    <a href="">
+                                        <img src="./assets/img/part__3__left__4__betw.webp" alt="" class="part__3__left__4__adv__betw__img" width="168" height="112>
+                                    </a>
+                                    <a href="">
+                                        <h3 class="part__3__left__4__adv__betw__title">Eco City __ Lời giải cho bài toán mua máy lạnh của gia đình trẻ TPHCM</h3>
+                                    </a>
+                                </section>
+                                <section class="part__3__left__4__adv__right">
+                                    <a href="">
+                                        <img src="./assets/img/part__3__left__4__right.webp" alt="" class="part__3__left__4__adv__right__img" width="168" height="112>
+                                    </a>
+                                    <a href="">
+                                        <h3 class="part__3__left__4__adv__right__title">4 điểm nổi bật của cuộc thi Tiết kiệm điện __ Sáng kiến cool</h3>
+                                    </a>
+                                </section>
+                            </article>
+                            <section class="part__3__left__4__1 content__part__3__left">
+                                <div class="part__3__left__4__1__image">
+                                    <a href="">
+                                        <img src="./assets/img/part__3__left__4__1.webp" alt="" class="part__3__left__img">
+                                    </a>
+                                </div>
+                                <div class="part__3__left__4__1__info info__part__3__left">
+                                    <a href="">
+                                        <h3 class="part__3__left__4__1__title title__part__3__left">Gia đình TPHCM đến Phú Quý "sống như người bản địa" với 15 triệu đồng/tháng</h3>
+                                    </a>
+                                    <a href="">
+                                        <p class="part__3__left__4__1__desc desc__part__3__left">Vợ chồng chị Minh Điệp cùng con gái 6 tuổi và hai chú cún cưng đã có một tháng du lịch trên đảo Phú...</p>
+                                    </a>
+                                </div>
+                            </section>
+                            <section class="part__3__left__4__2 content__part__3__left">
+                                <div class="part__3__left__4__2__image">
+                                    <a href="">
+                                        <img src="./assets/img/part__3__left__4__2.webp" alt="" class="part__3__left__img">
+                                    </a>
+                                </div>
+                                <div class="part__3__left__4__2__info info__part__3__left">
+                                    <a href="">
+                                        <h3 class="part__3__left__4__2__title title__part__3__left">Những công trình nổi tiếng thế giới được làm từ tăm giang</h3>
+                                    </a>
+                                    <a href="">
+                                        <p class="part__3__left__4__2__desc desc__part__3__left">Từ vật liệu hết sức gần gũi với người dân Việt Nam, chàng kiến trúc sư Hoàng Tuấn Long đã tạo nên những tác...</p>
+                                    </a>
+                                </div>
+                            </section>
+                            <section class="part__3__left__4__3 content__part__3__left">
+                                <div class="part__3__left__4__3__image">
+                                    <a href="">
+                                        <img src="./assets/img/part__3__left__4__3.webp" alt="" class="part__3__left__img">
+                                    </a>
+                                </div>
+                                <div class="part__3__left__4__3__info info__part__3__left">
+                                    <a href="">
+                                        <h3 class="part__3__left__4__3__title title__part__3__left">Tôi nhờ bạn thân giàu có thử lòng vợ và cái kết ngoài dự tính</h3>
+                                    </a>
+                                    <a href="">
+                                        <p class="part__3__left__4__3__desc desc__part__3__left">Tôi đi làm về đã thấy vợ ngồi chờ, trên bàn là tờ đơn ly hôn. Nghĩ đến "phép thử" của bạn thân, tôi...</p>
+                                    </a>
+                                </div>
+                            </section>
+                            <section class="part__3__left__4__4 content__part__3__left">
+                                <div class="part__3__left__4__4__image">
+                                    <a href="">
+                                        <img src="./assets/img/part__3__left__4__4.webp" alt="" class="part__3__left__img">
+                                    </a>
+                                </div>
+                                <div class="part__3__left__4__4__info info__part__3__left">
+                                    <a href="">
+                                        <h3 class="part__3__left__4__4__title title__part__3__left">Điệu nhảy độc đáo ở "Rap Việt" nhanh chóng gây sốt trong giới trẻ</h3>
+                                    </a>
+                                    <a href="">
+                                        <p class="part__3__left__4__4__desc desc__part__3__left">Điệu nhảy thể hiện sự cứng nhắc của rapper Wxrdie trên sân khấu đang được nhiều bạn trẻ Việt thử làm theo...</p>
+                                    </a>
+                                </div>
+                            </section>
+                            <div class="part__3__left__4__avdert__2">
+                                <a href="">
+                                    <img src="./assets/img/part__3__left__4__adv__2.jfif" alt="" class="part__3__left__4__adv__2">
+                                </a>
+                            </div>
+                            <section class="part__3__left__4__5 content__part__3__left">
+                                <div class="part__3__left__4__5__image">
+                                    <a href="">
+                                        <img src="./assets/img/part__3__left__4__5.webp" alt="" class="part__3__left__img">
+                                    </a>
+                                </div>
+                                <div class="part__3__left__4__5__info info__part__3__left">
+                                    <a href="">
+                                        <h3 class="part__3__left__4__5__title title__part__3__left">Màn hỗn chiến giữa báo gê__pa và 50 con khỉ đầu chó</h3>
+                                    </a>
+                                    <a href="">
+                                        <p class="part__3__left__4__5__desc desc__part__3__left">Kẻ đi săn đơn độc đã không thể giành chiến thắng trước bầy khỉ hung dữ..</p>
+                                    </a>
+                                </div>
+                            </section>
+                            <section class="part__3__left__4__6 content__part__3__left">
+                                <div class="part__3__left__4__6__image">
+                                    <a href="">
+                                        <img src="./assets/img/part__3__left__4__6.webp" alt="" class="part__3__left__img">
+                                    </a>
+                                </div>
+                                <div class="part__3__left__4__6__info info__part__3__left">
+                                    <a href="">
+                                        <h3 class="part__3__left__4__6__title title__part__3__left">Giới thiệu những nhân sự tiêu biểu để tạo nguồn cán bộ cho Trung ương</h3>
+                                    </a>
+                                    <a href="">
+                                        <p class="part__3__left__4__6__desc desc__part__3__left">Cán bộ được giới thiệu để đưa vào quy hoạch phải là những người thực sự tiêu biểu về phẩm chất và năng lực.</p>
+                                    </a>
+                                </div>
+                            </section>
+                            <section class="part__3__left__4__7 content__part__3__left">
+                                <div class="part__3__left__4__7__image">
+                                    <a href="">
+                                        <img src="./assets/img/part__3__left__4__7.webp" alt="" class="part__3__left__img">
+                                    </a>
+                                </div>
+                                <div class="part__3__left__4__7__info info__part__3__left">
+                                    <a href="">
+                                        <h3 class="part__3__left__4__7__title title__part__3__left">Vụ 3 người HAGL tử nạn: Lái xe tải ngược chiều có phải chịu trách nhiệm?</h3>
+                                    </a>
+                                    <a href="">
+                                        <p class="part__3__left__4__7__desc desc__part__3__left">Theo luật sư, việc xe tải tông ô tô con rồi rê sang làn ngược chiều có thể coi là sự kiện bất ngờ...</p>
+                                    </a>
+                                </div>
+                            </section>
+                            <section class="part__3__left__4__8 content__part__3__left">
+                                <div class="part__3__left__4__8__image">
+                                    <a href="">
+                                        <img src="./assets/img/part__3__left__4__8.webp" alt="" class="part__3__left__img">
+                                    </a>
+                                </div>
+                                <div class="part__3__left__4__8__info info__part__3__left">
+                                    <a href="">
+                                        <h3 class="part__3__left__4__8__title title__part__3__left">Chuyên gia Scotland: HLV Troussier chưa được hỗ trợ để tính đến World Cup</h3>
+                                    </a>
+                                    <a href="">
+                                        <p class="part__3__left__4__8__desc desc__part__3__left">Chia sẻ cùng Dân trí, chuyên gia bóng đá người Scotland, Richard Harcus đánh giá HLV Philippe Troussier chưa có đủ phương...</p>
+                                    </a>
+                                </div>
+                            </section>
+                            <section class="part__3__left__4__9 content__part__3__left">
+                                <div class="part__3__left__4__9__image">
+                                    <a href="">
+                                        <img src="./assets/img/part__3__left__4__9.webp" alt="" class="part__3__left__img">
+                                    </a>
+                                </div>
+                                <div class="part__3__left__4__9__info info__part__3__left">
+                                    <a href="">
+                                        <h3 class="part__3__left__4__9__title title__part__3__left">Nước mắt ngày từ sông nước chuyển lên ở "khu biệt thự"</h3>
+                                    </a>
+                                    <a href="">
+                                        <p class="part__3__left__4__9__desc desc__part__3__left">Kết thúc những tháng ngày sống lênh đênh trên sông nước, 28 hộ dân ở làng chài thuộc xã Thiệu Vũ, huyện Thiệu Hóa,...</p>
+                                    </a>
+                                </div>
+                            </section>
+                        </article>
+                    </div>
+                    <div class="part__3__right">
+                        <article class="part__3__right__1 part__3__right__box">
+                            <div class="part__3__right__1__header">
+                                <ul class="part__3__right__1__header__list body">
+                                    <a href="" class="">
+                                        <li class="part__3__right__1__header__list__1 header__part__3__right_a">XÃ HỘI</li>
+                                    </a>
+                                    <a href="" class="list__item">
+                                        <li class="part__3__right__1__header__list__2 header__part__3__right_b">Chính trị</li>
+                                    </a>
+                                    <a href="" class="list__item">
+                                        <li class="part__3__right__1__header__list__3 header__part__3__right_b">Học tập Bác</li>
+                                    </a>
+                                    <a href="" class="list__item">
+                                        <li class="part__3__right__1__header__list__4 header__part__3__right_b">Môi trường</li>
+                                    </a>
+                                </ul>
+                            </div>
+                            <article class="part__3__right__1__content body content__part__3__right">
+                                <section class="part__3__right__1__left left__part__3__right">
+                                    <a href="">
+                                        <img src="./assets/img/part-3-right-1-left.webp" alt="" class="part__3__right__1__left__img">
+                                    </a>
+                                    <a href="">
+                                        <h3 class="part__3__right__1__left__title title__part__3__right__left">Người tung tin thất thiệt khi mua bán sầu riêng bị mời lên làm việc</h3>
+                                    </a>
+                                    <a href="">
+                                        <p class="part__3__right__1__left__desc desc__part__3__right__left">Một người phụ nữ tại Đắk Lắk đã livestream thông tin sai sự thật rằng chi cục thuế "ngăn sông cấm chợ", không cho...</p>
+                                    </a>
+                                </section>
+                                <article class="part__3__right__1__right">
+                                    <section class="part__3__right__1__right__1 body content__part__3__right__right">
+                                        <a href="">
+                                            <h3 class="part__3__right__1__right__1__desc title__part__3__right__right">Xe tải bốc cháy ngùn ngụt trên cao tốc Phan Thiết - Dầu Giây</h3>
+                                        </a>
+                                        <a href="">
+                                            <img src="./assets/img/part-3-right-1-right-1.webp" alt="" class="img__part__3__right__right">
+                                        </a>
+                                    </section>
+                                    <section class="part__3__right__1__right__1 body content__part__3__right__right">
+                                        <a href="">
+                                            <h3 class="part__3__right__1__right__1__desc title__part__3__right__right">Kiểm soát chặt xây dựng nhà cửa ở địa hình sườn dốc, ven sông suối</h3>
+                                        </a>
+                                        <a href="">
+                                            <img src="./assets/img/part-3-right-1-right-2.webp" alt="" class="img__part__3__right__right">
+                                        </a>
+                                    </section>
+                                    <section class="part__3__right__1__right__1 body content__part__3__right__right">
+                                        <a href="">
+                                            <h3 class="part__3__right__1__right__1__desc title__part__3__right__right">Nhiều cột điện ở Cần Thơ nằm chơ vơ giữa đường đi</h3>
+                                        </a>
+                                        <a href="">
+                                            <img src="./assets/img/part-3-right-1-right-3.webp" alt="" class="img__part__3__right__right">
+                                        </a>
+                                    </section>
+                                    <section class="part__3__right__1__right__1 body">
+                                        <a href="">
+                                            <h3 class="part__3__right__1__right__1__desc title__part__3__right__right">Xe sang Porsche chết máy giữa biển nước ngập sau mưa lớn ở Hà Nội</h3>
+                                        </a>
+                                        <a href="">
+                                            <img src="./assets/img/part-3-right-1-right-4.webp" alt="" class="img__part__3__right__right">
+                                        </a>
+                                    </section>
+                            </article>
+                        </article>
+                        </article>
+                        <article class="part__3__right__2 part__3__right__box">
+                            <div class="part__3__right__2__header">
+                                <ul class="part__3__right__2__header__list body">
+                                    <a href="" class="">
+                                        <li class="part__3__right__2__header__list__1 header__part__3__right_a">THẾ GIỚI</li>
+                                    </a>
+                                    <a href="" class="list__item">
+                                        <li class="part__3__right__2__header__list__2 header__part__3__right_b">Quân sự</li>
+                                    </a>
+                                    <a href="" class="list__item">
+                                        <li class="part__3__right__2__header__list__3 header__part__3__right_b">Hồ sơ - Phân tích</li>
+                                    </a>
+                                    <a href="" class="list__item">
+                                        <li class="part__3__right__2__header__list__4 header__part__3__right_b">Căng thẳng Nga - Ukraine</li>
+                                    </a>
+                                </ul>
+                            </div>
+                            <article class="part__3__right__2__content body content__part__3__right">
+                                <section class="part__3__right__2__left left__part__3__right">
+                                    <a href="">
+                                        <img src="./assets/img/part-3-right-2-left.webp" alt="" class="part__3__right__2__left__img">
+                                    </a>
+                                    <a href="">
+                                        <h3 class="part__3__right__2__left__title title__part__3__right__left">F-16 có thể thành "viên đạn bạc", giúp Ukraine xoay chiều chiến sự?</h3>
+                                    </a>
+                                    <a href="">
+                                        <p class="part__3__right__2__left__desc desc__part__3__right__left">Máy bay chiến đấu F-16 được kỳ vọng là "viên đạn bạc" giúp Ukraine đối phó Nga, nhưng các chuyên gia vẫn hoài nghi...</p>
+                                    </a>
+                                </section>
+                                <article class="part__3__right__2__right">
+                                    <section class="part__3__right__2__right__1 body content__part__3__right__right">
+                                        <a href="">
+                                            <h3 class="part__3__right__2__right__1__desc title__part__3__right__right">Tội phạm giết người kiện chính phủ Na Uy vì bản án nghiêm khắc</h3>
+                                        </a>
+                                        <a href="">
+                                            <img src="./assets/img/part-3-right-2-right-1.webp" alt="" class="img__part__3__right__right">
+                                        </a>
+                                    </section>
+                                    <section class="part__3__right__2__right__1 body content__part__3__right__right">
+                                        <a href="">
+                                            <h3 class="part__3__right__2__right__1__desc title__part__3__right__right">Phát hiện loạt khác lạ bên trong tên lửa Nga chưa nổ ở Ukraine</h3>
+                                        </a>
+                                        <a href="">
+                                            <img src="./assets/img/part-3-right-2-right-2.webp" alt="" class="img__part__3__right__right">
+                                        </a>
+                                    </section>
+                                    <section class="part__3__right__2__right__1 body content__part__3__right__right">
+                                        <a href="">
+                                            <h3 class="part__3__right__2__right__1__desc title__part__3__right__right">Ukraine bắt tay Thụy Điển sản xuất thiết giáp "quái vật biến hình"</h3>
+                                        </a>
+                                        <a href="">
+                                            <img src="./assets/img/part-3-right-2-right-3.webp" alt="" class="img__part__3__right__right">
+                                        </a>
+                                    </section>
+                                    <section class="part__3__right__2__right__1 body">
+                                        <a href="">
+                                            <h3 class="part__3__right__2__right__1__desc title__part__3__right__right">Thủ tướng Nhật thị sát nhà máy điện hạt nhân Fukushima số 1</h3>
+                                        </a>
+                                        <a href="">
+                                            <img src="./assets/img/part-3-right-2-right-4.webp" alt="" class="img__part__3__right__right">
+                                        </a>
+                                    </section>
+                                </article>
+                            </article>
+                        </article>
+                        <article class="part__3__right__3 part__3__right__box">
+                            <div class="part__3__right__3__header">
+                                <ul class="part__3__right__3__header__list body">
+                                    <a href="" class="">
+                                        <li class="part__3__right__3__header__list__1 header__part__3__right_a">KINH DOANH</li>
+                                    </a>
+                                    <a href="" class="list__item">
+                                        <li class="part__3__right__3__header__list__2 header__part__3__right_b">Tài chính</li>
+                                    </a>
+                                    <a href="" class="list__item">
+                                        <li class="part__3__right__3__header__list__3 header__part__3__right_b">Chứng khoán</li>
+                                    </a>
+                                    <a href="" class="list__item">
+                                        <li class="part__3__right__3__header__list__4 header__part__3__right_b">Doanh nghiệp</li>
+                                    </a>
+                                </ul>
+                            </div>
+                            <article class="part__3__right__3__content body content__part__3__right">
+                                <section class="part__3__right__3__left left__part__3__right">
+                                    <a href="">
+                                        <img src="./assets/img/part-3-right-3-left.webp" alt="" class="part__3__right__3__left__img">
+                                    </a>
+                                    <a href="">
+                                        <h3 class="part__3__right__3__left__title title__part__3__right__left">Bản đồ thương mại toàn cầu đang được vẽ lại</h3>
+                                    </a>
+                                    <a href="">
+                                        <p class="part__3__right__3__left__desc desc__part__3__right__left">Hoạt động thương mại ngày càng căng thẳng và có nguy cơ trở thành cuộc suy thoái toàn cầu. Nga nhập khẩu bằng ...</p>
+                                    </a>
+                                </section>
+                                <article class="part__3__right__3__right">
+                                    <section class="part__3__right__3__right__1 body content__part__3__right__right">
+                                        <a href="">
+                                            <h3 class="part__3__right__3__right__1__desc title__part__3__right__right">Bộ Tài chính đề nghị tăng cường kiểm tra đột xuất hoạt động casino</h3>
+                                        </a>
+                                        <a href="">
+                                            <img src="./assets/img/part-3-right-3-right-1.webp" alt="" class="img__part__3__right__right">
+                                        </a>
+                                    </section>
+                                    <section class="part__3__right__3__right__1 body content__part__3__right__right">
+                                        <a href="">
+                                            <h3 class="part__3__right__3__right__1__desc title__part__3__right__right">Giá xăng sẽ tăng 5 lần liền, vượt 24.000 đồng/lít?</h3>
+                                        </a>
+                                        <a href="">
+                                            <img src="./assets/img/part-3-right-3-right-2.webp" alt="" class="img__part__3__right__right">
+                                        </a>
+                                    </section>
+                                    <section class="part__3__right__3__right__1 body content__part__3__right__right">
+                                        <a href="">
+                                            <h3 class="part__3__right__3__right__1__desc title__part__3__right__right">Lãi suất tiền gửi giảm sâu, xuất hiện diễn biến lạ</h3>
+                                        </a>
+                                        <a href="">
+                                            <img src="./assets/img/part-3-right-3-right-3.webp" alt="" class="img__part__3__right__right">
+                                        </a>
+                                    </section>
+                                    <section class="part__3__right__3__right__1 body">
+                                        <a href="">
+                                            <h3 class="part__3__right__3__right__1__desc title__part__3__right__right">Cổ phiếu VinFast ra sao 4 ngày niêm yết?</h3>
+                                        </a>
+                                        <a href="">
+                                            <img src="./assets/img/part-3-right-3-right-4.webp" alt="" class="img__part__3__right__right">
+                                        </a>
+                                    </section>
+                                </article>
+                            </article>
+                        </article>
+                        <article class="part__3__right__4 part__3__right__box">
+                            <div class="part__3__right__4__header">
+                                <ul class="part__3__right__4__header__list body">
+                                    <a href="" class="">
+                                        <li class="part__3__right__4__header__list__1 header__part__3__right_a">BẤT ĐỘNG SẢN</li>
+                                    </a>
+                                    <a href="" class="list__item">
+                                        <li class="part__3__right__4__header__list__2 header__part__3__right_b">Dự án</li>
+                                    </a>
+                                    <a href="" class="list__item">
+                                        <li class="part__3__right__4__header__list__3 header__part__3__right_b">Thị trường</li>
+                                    </a>
+                                    <a href="" class="list__item">
+                                        <li class="part__3__right__4__header__list__4 header__part__3__right_b">Nhịp sống đô thị</li>
+                                    </a>
+                                    <a href="" class="list__item">
+                                        <li class="part__3__right__4__header__list__4 header__part__3__right_b">Sống xanh</li>
+                                    </a>
+                                </ul>
+                            </div>
+                            <article class="part__3__right__4__content body content__part__3__right">
+                                <section class="part__3__right__4__left left__part__3__right">
+                                    <a href="">
+                                        <img src="./assets/img/part-3-right-4-left.webp" alt="" class="part__3__right__4__left__img">
+                                    </a>
+                                    <a href="">
+                                        <h3 class="part__3__right__4__left__title title__part__3__right__left">Vụ nợ 1.000 sổ đỏ: Thu hồi giấy chứng nhận đăng ký doanh nghiệp chủ đầu tư</h3>
+                                    </a>
+                                    <a href="">
+                                        <p class="part__3__right__4__left__desc desc__part__3__right__left">Cơ quan chức năng tỉnh Quảng Nam quyết định thu hồi giấy chứng nhận đăng ký doanh nghiệp đối với Công ty cổ phần...</p>
+                                    </a>
+                                </section>
+                                <article class="part__3__right__4__right">
+                                    <section class="part__3__right__4__right__1 body content__part__3__right__right">
+                                        <a href="">
+                                            <h3 class="part__3__right__4__right__1__desc title__part__3__right__right">Shophouse, liền kề giá cả chục tỷ đồng treo biển cho thuê nát bươm vẫn "ế"</h3>
+                                        </a>
+                                        <a href="">
+                                            <img src="./assets/img/part-3-right-4-right-1.webp" alt="" class="img__part__3__right__right">
+                                        </a>
+                                    </section>
+                                    <section class="part__3__right__4__right__1 body content__part__3__right__right">
+                                        <a href="">
+                                            <h3 class="part__3__right__4__right__1__desc title__part__3__right__right">Loạt đường kết nối siêu dự án Tây Hồ Tây của Hà Nội</h3>
+                                        </a>
+                                        <a href="">
+                                            <img src="./assets/img/part-3-right-4-right-2.webp" alt="" class="img__part__3__right__right">
+                                        </a>
+                                    </section>
+                                    <section class="part__3__right__4__right__1 body content__part__3__right__right">
+                                        <a href="">
+                                            <h3 class="part__3__right__4__right__1__desc title__part__3__right__right">Lộ diện 10 công ty địa ốc giỏi kiếm tiền nhất cho cổ đông</h3>
+                                        </a>
+                                        <a href="">
+                                            <img src="./assets/img/part-3-right-4-right-3.webp" alt="" class="img__part__3__right__right">
+                                        </a>
+                                    </section>
+                                    <section class="part__3__right__4__right__1 body">
+                                        <a href="">
+                                            <h3 class="part__3__right__4__right__1__desc title__part__3__right__right">"Chúa chổm" Evergrande nộp đơn xin phá sản tại Mỹ</h3>
+                                        </a>
+                                        <a href="">
+                                            <img src="./assets/img/part-3-right-4-right-4.webp" alt="" class="img__part__3__right__right">
+                                        </a>
+                                    </section>
+                                </article>
+                            </article>
+                        </article>
+                        <article class="part__3__right__5 part__3__right__box">
+                            <div class="part__3__right__5__header">
+                                <ul class="part__3__right__5__header__list body">
+                                    <a href="" class="">
+                                        <li class="part__3__right__5__header__list__1 header__part__3__right_a">THỂ THAO</li>
+                                    </a>
+                                    <a href="" class="list__item">
+                                        <li class="part__3__right__5__header__list__2 header__part__3__right_b">SEA Games 32</li>
+                                    </a>
+                                    <a href="" class="list__item">
+                                        <li class="part__3__right__5__header__list__3 header__part__3__right_b">Bóng đá trong nước</li>
+                                    </a>
+                                    <a href="" class="list__item">
+                                        <li class="part__3__right__5__header__list__4 header__part__3__right_b">Lịch thi đấu</li>
+                                    </a>
+                                </ul>
+                            </div>
+                            <article class="part__3__right__5__content body content__part__3__right">
+                                <section class="part__3__right__5__left left__part__3__right">
+                                    <a href="">
+                                        <img src="./assets/img/part-3-right-5-left.webp" alt="" class="part__3__right__5__left__img">
+                                    </a>
+                                    <a href="">
+                                        <h3 class="part__3__right__5__left__title title__part__3__right__left">HLV U23 Lào: "Chúng tôi cố gắng thắng U23 Việt Nam nhưng bất thành"</h3>
+                                    </a>
+                                    <a href="">
+                                        <p class="part__3__right__5__left__desc desc__part__3__right__left">HLV Guglielmo Arena (người Italy) cho rằng U23 Việt Nam giành chiến thắng trước U23 Lào đơn giản vì đội bóng của HLV...</p>
+                                    </a>
+                                </section>
+                                <article class="part__3__right__5__right">
+                                    <section class="part__3__right__5__right__1 body content__part__3__right__right">
+                                        <a href="">
+                                            <h3 class="part__3__right__5__right__1__desc title__part__3__right__right">HLV Hoàng Anh Tuấn: "Trận đầu tiên bao giờ cũng rất khó khăn"</h3>
+                                        </a>
+                                        <a href="">
+                                            <img src="./assets/img/part-3-right-5-right-1.webp" alt="" class="img__part__3__right__right">
+                                        </a>
+                                    </section>
+                                    <section class="part__3__right__5__right__1 body content__part__3__right__right">
+                                        <a href="">
+                                            <h3 class="part__3__right__5__right__1__desc title__part__3__right__right">Thắng nghẹt thở Anh, Tây Ban Nha giành chức vô địch World Cup 2023</h3>
+                                        </a>
+                                        <a href="">
+                                            <img src="./assets/img/part-3-right-5-right-2.webp" alt="" class="img__part__3__right__right">
+                                        </a>
+                                    </section>
+                                    <section class="part__3__right__5__right__1 body content__part__3__right__right">
+                                        <a href="">
+                                            <h3 class="part__3__right__5__right__1__desc title__part__3__right__right">U23 Việt Nam đại thắng 4-1 trước U23 Lào</h3>
+                                        </a>
+                                        <a href="">
+                                            <img src="./assets/img/part-3-right-5-right-3.webp" alt="" class="img__part__3__right__right">
+                                        </a>
+                                    </section>
+                                    <section class="part__3__right__5__right__1 body">
+                                        <a href="">
+                                            <h3 class="part__3__right__5__right__1__desc title__part__3__right__right">Neymar bùng cháy trong lễ ra mắt vô cùng hoàng tráng ở Saudi Arabia</h3>
+                                        </a>
+                                        <a href="">
+                                            <img src="./assets/img/part-3-right-5-right-4.webp" alt="" class="img__part__3__right__right" width="140">
+                                        </a>
+                                    </section>
+                                </article>
+                            </article>
+                        </article>
+                        <div class="part__3__right__adv__1">
+                            <div data-module="football">
+                                <div class="football-home ">
+                                    <div class="football-info ">
+                                        <div class="football-match-info">
+                                            <div class="football-match">
+                                                <div class="match-all">
+                                                    <div class="match">
+                                                        <div class="lyon-montpellier-time time">00h00 · 20/08</div>
+                                                        <div class="lyon-montpellier match-clb">
+                                                            <div class="lyon content-clb">
+                                                                <span class="lyon-clb clb">
+                                                                    <img class="lyon-img img" src="./assets/img/lyon.webp" alt="Lyon">
+                                                                    <span class="lyon-name name">Lyon</span>
+                                                                </span>
+                                                                <span class="lyon-tyso tyso">1</span>
+                                                            </div>
+                                                            <div class="montpellier content-clb">
+                                                                <span class="montpellier-clb clb">
+                                                                    <img class="montpellier-img img" src="https://icdn.dantri.com.vn/football/teams/82.png" alt="Montpellier">
+                                                                    <span class="montpellier-name name">Montpellier</span>
+                                                                </span>
+                                                                <span class="montpellier-tyso tyso ">4</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="match">
+                                                        <div class="time">00h30 · 20/08</div>
+                                                        <div class="match-clb">
+                                                            <div class="content-clb">
+                                                                <span class="clb">
+                                                                    <img class="img" src="https://icdn.dantri.com.vn/football/teams/723.png" alt="Almeria">
+                                                                    <span class="name">Almeria</span>
+                                                                </span>
+                                                                <span class="tyso ">1</span>
+                                                            </div>
+                                                            <div class="content-clb">
+                                                                <span class="clb">
+                                                                    <img class="img" src="https://icdn.dantri.com.vn/football/teams/541.png" alt="Real Madrid">
+                                                                    <span class="name">Real Madrid</span>
+                                                                </span>
+                                                                <span class="tyso ">3</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="match">
+                                                        <div class="time">01h45 · 20/08</div>
+                                                        <div class="match-clb">
+                                                            <div class="content-clb">
+                                                                <span class="clb">
+                                                                    <img class="img" src="https://icdn.dantri.com.vn/football/teams/495.png" alt="Genoa">
+                                                                    <span class="name">Genoa</span>
+                                                                </span>
+                                                                <span class="tyso ">1</span>
+                                                            </div>
+                                                            <div class="content-clb">
+                                                                <span class="clb">
+                                                                    <img class="img" src="https://icdn.dantri.com.vn/football/teams/502.png" alt="Fiorentina">
+                                                                    <span class="name">Fiorentina</span>
+                                                                </span>
+                                                                <span class="tyso ">4</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="swiper-button-next _7jsleErgHPixBo5CATX swiper-button-disabled"></div>
+                                            <div class="swiper-button-prev mPER0AdS6K_xBPIUbKFM"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <article class="part__3__right__6 part__3__right__box">
+                            <div class="part__3__right__6__header">
+                                <ul class="part__3__right__6__header__list body">
+                                    <a href="" class="">
+                                        <li class="part__3__right__6__header__list__1 header__part__3__right_a">LAO ĐỘNG - VIỆC LÀM</li>
+                                    </a>
+                                    <a href="" class="list__item">
+                                        <li class="part__3__right__6__header__list__2 header__part__3__right_b">Chính sách</li>
+                                    </a>
+                                    <a href="" class="list__item">
+                                        <li class="part__3__right__6__header__list__3 header__part__3__right_b">Làm giàu</li>
+                                    </a>
+                                    <a href="" class="list__item">
+                                        <li class="part__3__right__6__header__list__4 header__part__3__right_b">Chuyện nghề</li>
+                                    </a>
+                                </ul>
+                            </div>
+                            <article class="part__3__right__6__content body content__part__3__right">
+                                <section class="part__3__right__6__left left__part__3__right">
+                                    <a href="">
+                                        <img src="./assets/img/part-3-right-6-left.webp" alt="" class="part__3__right__6__left__img">
+                                    </a>
+                                    <a href="">
+                                        <h3 class="part__3__right__6__left__title title__part__3__right__left">Sắp "mất voi mới lo làm chuồng", nam shipper quỳ gối kêu oan</h3>
+                                    </a>
+                                    <a href="">
+                                        <p class="part__3__right__6__left__desc desc__part__3__right__left">Người giao hàng quỳ lạy, van xin sau khi tông vào đuôi xe Porsche, hai con voi bị xích chân ở vườn thú. Hai...</p>
+                                    </a>
+                                </section>
+                                <article class="part__3__right__6__right">
+                                    <section class="part__3__right__6__right__1 body content__part__3__right__right">
+                                        <a href="">
+                                            <h3 class="part__3__right__6__right__1__desc title__part__3__right__right">Dân đổi đời, mua xế hộp, xây nhà đẹp nhờ loại cây tỏa ra mùi thơm dịu</h3>
+                                        </a>
+                                        <a href="">
+                                            <img src="./assets/img/part-3-right-6-right-1.webp" alt="" class="img__part__3__right__right">
+                                        </a>
+                                    </section>
+                                    <section class="part__3__right__6__right__1 body content__part__3__right__right">
+                                        <a href="">
+                                            <h3 class="part__3__right__6__right__1__desc title__part__3__right__right">Thế hệ thứ 3 làm bánh "thở hương trời, hít khí biển", gói không kịp nghỉ</h3>
+                                        </a>
+                                        <a href="">
+                                            <img src="./assets/img/part-3-right-6-right-2.webp" alt="" class="img__part__3__right__right">
+                                        </a>
+                                    </section>
+                                    <section class="part__3__right__6__right__1 body content__part__3__right__right">
+                                        <a href="">
+                                            <h3 class="part__3__right__6__right__1__desc title__part__3__right__right">Người trồng đu đủ khóc nhìn hàng tấn quả chín rục gốc, nguy cơ "bay" 8 tỷ</h3>
+                                        </a>
+                                        <a href="">
+                                            <img src="./assets/img/part-3-right-6-right-3.webp" alt="" class="img__part__3__right__right">
+                                        </a>
+                                    </section>
+                                    <section class="part__3__right__6__right__1 body">
+                                        <a href="">
+                                            <h3 class="part__3__right__6__right__1__desc title__part__3__right__right">Nông dân U70 khiến cả làng "tâm phục khẩu phục" từ món quà của con trai</h3>
+                                        </a>
+                                        <a href="">
+                                            <img src="./assets/img/part-3-right-6-right-4.webp" alt="" class="img__part__3__right__right" width="140">
+                                        </a>
+                                    </section>
+                                </article>
+                            </article>
+                        </article>
+                        <article class="part__3__right__adv__2">
+                            <a href="">
+                                <h2 class="part__3__right__adv__2__title adv__title">FICA.VN - CHUYÊN TRANG TÀI CHÍNH DOANH NGHIỆP</h2>
+                            </a>
+                            <article class="part__3__right__adv__2__content body">
+                                <section class="part__3__right__adv__2__left content__part__3__adv__2">
+                                    <a href="">
+                                        <img src="./assets/img/part-3-right-adv-2-left.jpg" alt="" class="part__3__right__adv__2__left__img" width="271" height="177">
+                                    </a>
+                                    <a href="">
+                                        <h3 class="part__3__right__adv__2__left__title part__3__right__adv__2__title__a">Trung Quốc hạ lãi suất cơ bản để hỗ trợ nền kinh tế</h3>
+                                    </a>
+                                </section>
+                                <section class="part__3__right__adv__2__right content__part__3__adv__2">
+                                    <a href="">
+                                        <img src="./assets/img/part-3-right-adv-2-right.png" alt="" class="part__3__right__adv__2__img" width="271" height="177">
+                                    </a>
+                                    <a href="">
+                                        <h3 class="part__3__right__adv__2__right__title part__3__right__adv__2__title__a">Chứng khoán Mỹ lao dốc phiên thứ tư liên tiếp, VFS giảm 23% còn 15,4 USD/cổ phiếu</h3>
+                                    </a>
+                                </section>
+                            </article>
+                        </article>
+                        <article class="part__3__right__7 part__3__right__box">
+                            <div class="part__3__right__7__header">
+                                <ul class="part__3__right__7__header__list body">
+                                    <a href="" class="">
+                                        <li class="part__3__right__7__header__list__1 header__part__3__right_a">TẤM LÒNG NHÂN ÁI</li>
+                                    </a>
+                                    <a href="" class="list__item">
+                                        <li class="part__3__right__7__header__list__2 header__part__3__right_b">Danh sách ủng hộ</li>
+                                    </a>
+                                    <a href="" class="list__item">
+                                        <li class="part__3__right__7__header__list__3 header__part__3__right_b">Danh sách kết chuyển</li>
+                                    </a>
+                                    <a href="" class="list__item">
+                                        <li class="part__3__right__7__header__list__4 header__part__3__right_b">Hoàn cảnh</li>
+                                    </a>
+                                </ul>
+                            </div>
+                            <article class="part__3__right__7__content body content__part__3__right">
+                                <section class="part__3__right__7__left left__part__3__right">
+                                    <a href="">
+                                        <img src="./assets/img/part-3-right-7-left.webp" alt="" class="part__3__right__7__left__img">
+                                    </a>
+                                    <a href="">
+                                        <h3 class="part__3__right__7__left__title title__part__3__right__left">Mong ước được đến trường của 2 đứa trẻ mồ côi cha thành hiện thực</h3>
+                                    </a>
+                                    <a href="">
+                                        <p class="part__3__right__7__left__desc desc__part__3__right__left">Với số tiền hơn 85 triệu đồng bạn đọc Dân trí giúp đỡ, 2 anh em Y Trung, Hờ Hoa được mẹ sắm quần...</p>
+                                    </a>
+                                </section>
+                                <article class="part__3__right__7__right">
+                                    <section class="part__3__right__7__right__1 body content__part__3__right__right">
+                                        <a href="">
+                                            <h3 class="part__3__right__7__right__1__desc title__part__3__right__right">Nâng cao kỹ năng y tế học đường cho giáo viên tại xã nghèo Lào Cai</h3>
+                                        </a>
+                                        <a href="">
+                                            <img src="./assets/img/part-3-right-7-right-1.webp" alt="" class="img__part__3__right__right">
+                                        </a>
+                                    </section>
+                                    <section class="part__3__right__7__right__1 body content__part__3__right__right">
+                                        <a href="">
+                                            <h3 class="part__3__right__7__right__1__desc title__part__3__right__right">Món quà đặc biệt của bạn đọc Dân trí với cậu bé mồ côi sau gần một thập kỷ</h3>
+                                        </a>
+                                        <a href="">
+                                            <img src="./assets/img/part-3-right-7-right-2.webp" alt="" class="img__part__3__right__right">
+                                        </a>
+                                    </section>
+                                    <section class="part__3__right__7__right__1 body content__part__3__right__right">
+                                        <a href="">
+                                            <h3 class="part__3__right__7__right__1__desc title__part__3__right__right">Bạn đọc Dân trí giúp đỡ người đàn ông bỏng điện gần 220 triệu đồng</h3>
+                                        </a>
+                                        <a href="">
+                                            <img src="./assets/img/part-3-right-7-right-3.webp" alt="" class="img__part__3__right__right">
+                                        </a>
+                                    </section>
+                                    <section class="part__3__right__7__right__1 body">
+                                        <a href="">
+                                            <h3 class="part__3__right__7__right__1__desc title__part__3__right__right">Chung tay tặng thẻ BHYT, nâng bước học sinh hoàn cảnh khó khăn tới trường</h3>
+                                        </a>
+                                        <a href="">
+                                            <img src="./assets/img/part-3-right-7-right-4.webp" alt="" class="img__part__3__right__right" width="140">
+                                        </a>
+                                    </section>
+                                </article>
+                            </article>
+                        </article>
+                        <article class="part__3__right__8 part__3__right__box">
+                            <div class="part__3__right__8__header">
+                                <ul class="part__3__right__8__header__list body">
+                                    <a href="" class="">
+                                        <li class="part__3__right__8__header__list__1 header__part__3__right_a">SỨC KHỎE</li>
+                                    </a>
+                                    <a href="" class="list__item">
+                                        <li class="part__3__right__8__header__list__2 header__part__3__right_b">Ung thư</li>
+                                    </a>
+                                    <a href="" class="list__item">
+                                        <li class="part__3__right__8__header__list__3 header__part__3__right_b">Sống khỏe</li>
+                                    </a>
+                                    <a href="" class="list__item">
+                                        <li class="part__3__right__8__header__list__4 header__part__3__right_b">Dịch vụ y tế quốc tế</li>
+                                    </a>
+                                </ul>
+                            </div>
+                            <article class="part__3__right__8__content body content__part__3__right">
+                                <section class="part__3__right__8__left left__part__3__right">
+                                    <a href="">
+                                        <img src="./assets/img/part-3-right-8-left.webp" alt="" class="part__3__right__8__left__img">
+                                    </a>
+                                    <a href="">
+                                        <h3 class="part__3__right__8__left__title title__part__3__right__left">Hà Nội: Nhà nhà phun diệt muỗi diện rộng vì lo dịch, liệu có hiệu quả?</h3>
+                                    </a>
+                                    <a href="">
+                                        <p class="part__3__right__8__left__desc desc__part__3__right__left">Trước diễn biến phức tạp của dịch sốt xuất huyết tại Hà Nội, nhiều gia đình quyết định xuống tiền phun thuốc diệt muỗi...</p>
+                                    </a>
+                                </section>
+                                <article class="part__3__right__8__right">
+                                    <section class="part__3__right__8__right__1 body content__part__3__right__right">
+                                        <a href="">
+                                            <h3 class="part__3__right__8__right__1__desc title__part__3__right__right">Sở Y tế TPHCM yêu cầu bệnh viện phát ngôn sớm nhất khi có sự cố gây bức xúc</h3>
+                                        </a>
+                                        <a href="">
+                                            <img src="./assets/img/part-3-right-8-right-1.webp" alt="" class="img__part__3__right__right">
+                                        </a>
+                                    </section>
+                                    <section class="part__3__right__8__right__1 body content__part__3__right__right">
+                                        <a href="">
+                                            <h3 class="part__3__right__8__right__1__desc title__part__3__right__right">Nhân viên y tế cũng cần chăm sóc sức khỏe tâm thần, cấp cứu trầm cảm</h3>
+                                        </a>
+                                        <a href="">
+                                            <img src="./assets/img/part-3-right-8-right-2.webp" alt="" class="img__part__3__right__right">
+                                        </a>
+                                    </section>
+                                    <section class="part__3__right__8__right__1 body content__part__3__right__right">
+                                        <a href="">
+                                            <h3 class="part__3__right__8__right__1__desc title__part__3__right__right">Cơn đau bìu tưởng bình thường nhưng là cấp cứu tối khẩn cấp</h3>
+                                        </a>
+                                        <a href="">
+                                            <img src="./assets/img/part-3-right-8-right-3.webp" alt="" class="img__part__3__right__right">
+                                        </a>
+                                    </section>
+                                    <section class="part__3__right__8__right__1 body">
+                                        <a href="">
+                                            <h3 class="part__3__right__8__right__1__desc title__part__3__right__right">TPHCM: Căn bệnh làm 820.000 người tử vong/năm có số ca mắc tăng báo động</h3>
+                                        </a>
+                                        <a href="">
+                                            <img src="./assets/img/part-3-right-8-right-4.webp" alt="" class="img__part__3__right__right" width="140">
+                                        </a>
+                                    </section>
+                                </article>
+                            </article>
+                        </article>
+                        <article class="part__3__right__9 part__3__right__box">
+                            <div class="part__3__right__9__header">
+                                <ul class="part__3__right__9__header__list body">
+                                    <a href="" class="">
+                                        <li class="part__3__right__9__header__list__1 header__part__3__right_a">VĂN HÓA</li>
+                                    </a>
+                                    <a href="" class="list__item">
+                                        <li class="part__3__right__9__header__list__2 header__part__3__right_b">Sách hay</li>
+                                    </a>
+                                    <a href="" class="list__item">
+                                        <li class="part__3__right__9__header__list__3 header__part__3__right_b">Đời sống văn hóa</li>
+                                    </a>
+                                    <a href="" class="list__item">
+                                        <li class="part__3__right__9__header__list__4 header__part__3__right_b">Điện ảnh</li>
+                                    </a>
+                                </ul>
+                            </div>
+                            <article class="part__3__right__9__content body content__part__3__right">
+                                <section class="part__3__right__9__left left__part__3__right">
+                                    <a href="">
+                                        <img src="./assets/img/part-3-right-9-left.webp" alt="" class="part__3__right__9__left__img">
+                                    </a>
+                                    <a href="">
+                                        <h3 class="part__3__right__9__left__title title__part__3__right__left">Britney xuất hiện bất ổn trên đường phố: "Tôi đau đớn không chịu nổi"</h3>
+                                    </a>
+                                    <a href="">
+                                        <p class="part__3__right__9__left__desc desc__part__3__right__left">Britney Spears đã lên tiếng về chuyện hôn nhân tan vỡ. Cô cho biết bản thân rất đau đớn và không thể chịu nổi...</p>
+                                    </a>
+                                </section>
+                                <article class="part__3__right__9__right">
+                                    <section class="part__3__right__9__right__1 body content__part__3__right__right">
+                                        <a href="">
+                                            <h3 class="part__3__right__9__right__1__desc title__part__3__right__right">Gặp gỡ người đàn ông có niềm đam mê cháy bỏng với xe Lam</h3>
+                                        </a>
+                                        <a href="">
+                                            <img src="./assets/img/part-3-right-9-right-1.webp" alt="" class="img__part__3__right__right">
+                                        </a>
+                                    </section>
+                                    <section class="part__3__right__9__right__1 body content__part__3__right__right">
+                                        <a href="">
+                                            <h3 class="part__3__right__9__right__1__desc title__part__3__right__right">Con trai tài tử "Kẻ hủy diệt" lột xác ngoạn mục nhờ giảm cân</h3>
+                                        </a>
+                                        <a href="">
+                                            <img src="./assets/img/part-3-right-9-right-2.webp" alt="" class="img__part__3__right__right">
+                                        </a>
+                                    </section>
+                                    <section class="part__3__right__9__right__1 body content__part__3__right__right">
+                                        <a href="">
+                                            <h3 class="part__3__right__9__right__1__desc title__part__3__right__right">Diễn viên "Cô dâu 8 tuổi" tự tráng phở Hà Nội, thích có nhà ở Phú Yên</h3>
+                                        </a>
+                                        <a href="">
+                                            <img src="./assets/img/part-3-right-9-right-3.webp" alt="" class="img__part__3__right__right">
+                                        </a>
+                                    </section>
+                                    <section class="part__3__right__9__right__1 body">
+                                        <a href="">
+                                            <h3 class="part__3__right__9__right__1__desc title__part__3__right__right">Chồng của Britney bị... đấm tím mắt khi đang nằm ngủ bên vợ?</h3>
+                                        </a>
+                                        <a href="">
+                                            <img src="./assets/img/part-3-right-9-right-4.webp" alt="" class="img__part__3__right__right" width="140">
+                                        </a>
+                                    </section>
+                                </article>
+                            </article>
+                        </article>
+                        <article class="part__3__right__10 part__3__right__box">
+                            <div class="part__3__right__10__header">
+                                <ul class="part__3__right__10__header__list body">
+                                    <a href="" class="">
+                                        <li class="part__3__right__10__header__list__1 header__part__3__right_a">GIẢI TRÍ</li>
+                                    </a>
+                                    <a href="" class="list__item">
+                                        <li class="part__3__right__10__header__list__2 header__part__3__right_b">Hậu trường</li>
+                                    </a>
+                                    <a href="" class="list__item">
+                                        <li class="part__3__right__10__header__list__3 header__part__3__right_b">Thời trang</li>
+                                    </a>
+                                    <a href="" class="list__item">
+                                        <li class="part__3__right__10__header__list__4 header__part__3__right_b">TVshow</li>
+                                    </a>
+                                </ul>
+                            </div>
+                            <article class="part__3__right__10__content body content__part__3__right">
+                                <section class="part__3__right__10__left left__part__3__right">
+                                    <a href="">
+                                        <img src="./assets/img/part-3-right-10-left.webp" alt="" class="part__3__right__10__left__img">
+                                    </a>
+                                    <a href="">
+                                        <h3 class="part__3__right__10__left__title title__part__3__right__left">Bóc đồ Thái VG tại "Rap Việt": Đeo đồng hồ Rolex, vòng kim cương tiền tỷ</h3>
+                                    </a>
+                                    <a href="">
+                                        <p class="part__3__right__10__left__desc desc__part__3__right__left">Phần lớn trang phục của rapper Thái VG trong chương trình "Rap Việt" đều được phối cùng một món phụ kiện đặc biệt.</p>
+                                    </a>
+                                </section>
+                                <article class="part__3__right__10__right">
+                                    <section class="part__3__right__10__right__1 body content__part__3__right__right">
+                                        <a href="">
+                                            <h3 class="part__3__right__10__right__1__desc title__part__3__right__right">Lisa hé lộ mẫu người trong mộng, bạn trai tin đồn đạt bao nhiêu điểm?</h3>
+                                        </a>
+                                        <a href="">
+                                            <img src="./assets/img/part-3-right-10-right-1.webp" alt="" class="img__part__3__right__right">
+                                        </a>
+                                    </section>
+                                    <section class="part__3__right__10__right__1 body content__part__3__right__right">
+                                        <a href="">
+                                            <h3 class="part__3__right__10__right__1__desc title__part__3__right__right">MC Mai Ngọc ngày càng chăm diện bikini, khoe vóc dáng quyến rũ</h3>
+                                        </a>
+                                        <a href="">
+                                            <img src="./assets/img/part-3-right-10-right-2.webp" alt="" class="img__part__3__right__right">
+                                        </a>
+                                    </section>
+                                    <section class="part__3__right__10__right__1 body content__part__3__right__right">
+                                        <a href="">
+                                            <h3 class="part__3__right__10__right__1__desc title__part__3__right__right">Mỹ nhân Baifern Pimchanok nhắc tới mối bất hòa với mẹ bạn trai kém tuổi</h3>
+                                        </a>
+                                        <a href="">
+                                            <img src="./assets/img/part-3-right-10-right-3.webp" alt="" class="img__part__3__right__right">
+                                        </a>
+                                    </section>
+                                    <section class="part__3__right__10__right__1 body">
+                                        <a href="">
+                                            <h3 class="part__3__right__10__right__1__desc title__part__3__right__right">Nhà sử học Dương Trung Quốc nói gì về trang phục "Mắc võng Trường Sơn"?</h3>
+                                        </a>
+                                        <a href="">
+                                            <img src="./assets/img/part-3-right-10-right-4.webp" alt="" class="img__part__3__right__right" width="140">
+                                        </a>
+                                    </section>
+                                </article>
+                            </article>
+                        </article>
+                        <article class="part__3__right__11 part__3__right__box">
+                            <div class="part__3__right__11__header">
+                                <ul class="part__3__right__11__header__list body">
+                                    <a href="" class="">
+                                        <li class="part__3__right__11__header__list__1 header__part__3__right_a">Ô TÔ - XE MÁY</li>
+                                    </a>
+                                    <a href="" class="list__item">
+                                        <li class="part__3__right__11__header__list__2 header__part__3__right_b">Thị trường xe</li>
+                                    </a>
+                                    <a href="" class="list__item">
+                                        <li class="part__3__right__11__header__list__3 header__part__3__right_b">Xe điện</li>
+                                    </a>
+                                    <a href="" class="list__item">
+                                        <li class="part__3__right__11__header__list__4 header__part__3__right_b">Đánh giá</li>
+                                    </a>
+                                </ul>
+                            </div>
+                            <article class="part__3__right__11__content body content__part__3__right">
+                                <section class="part__3__right__11__left left__part__3__right">
+                                    <a href="">
+                                        <img src="./assets/img/part-3-right-11-left.webp" alt="" class="part__3__right__11__left__img">
+                                    </a>
+                                    <a href="">
+                                        <h3 class="part__3__right__11__left__title title__part__3__right__left">Mẫu ô tô gầm cao Nhật Bản được giảm giá 260 triệu đồng, rẻ ngang SUV hạng A</h3>
+                                    </a>
+                                    <a href="">
+                                        <p class="part__3__right__11__left__desc desc__part__3__right__left">Mức giảm giá này dành cho những chiếc Nissan Kicks được sản xuất trong năm 2022, số lượng có hạn và được bán theo...</p>
+                                    </a>
+                                </section>
+                                <article class="part__3__right__11__right">
+                                    <section class="part__3__right__11__right__1 body content__part__3__right__right">
+                                        <a href="">
+                                            <h3 class="part__3__right__11__right__1__desc title__part__3__right__right">Yaris Cross - Mảnh ghép hoàn thiện dải sản phẩm SUV đa dạng của Toyota Việt Nam</h3>
+                                        </a>
+                                        <a href="">
+                                            <img src="./assets/img/part-3-right-11-right-1.webp" alt="" class="img__part__3__right__right">
+                                        </a>
+                                    </section>
+                                    <section class="part__3__right__11__right__1 body content__part__3__right__right">
+                                        <a href="">
+                                            <h3 class="part__3__right__11__right__1__desc title__part__3__right__right">Xem trước Kia EV9 - SUV điện cỡ lớn cạnh tranh VinFast VF 9 nếu về Việt Nam</h3>
+                                        </a>
+                                        <a href="">
+                                            <img src="./assets/img/part-3-right-11-right-2.webp" alt="" class="img__part__3__right__right">
+                                        </a>
+                                    </section>
+                                    <section class="part__3__right__11__right__1 body content__part__3__right__right">
+                                        <a href="">
+                                            <h3 class="part__3__right__11__right__1__desc title__part__3__right__right">Nổi bật tuần qua: Tài xế vượt ẩu, xe con suýt bị kẹp giữa 2 xe container</h3>
+                                        </a>
+                                        <a href="">
+                                            <img src="./assets/img/part-3-right-11-right-3.webp" alt="" class="img__part__3__right__right">
+                                        </a>
+                                    </section>
+                                    <section class="part__3__right__11__right__1 body">
+                                        <a href="">
+                                            <h3 class="part__3__right__11__right__1__desc title__part__3__right__right">Honda Accord 2024 ra mắt tại Đông Nam Á, chờ ngày về Việt Nam "đấu" Camry</h3>
+                                        </a>
+                                        <a href="">
+                                            <img src="./assets/img/part-3-right-11-right-4.webp" alt="" class="img__part__3__right__right" width="140">
+                                        </a>
+                                    </section>
+                                </article>
+                            </article>
+                        </article>
+                        <article class="part__3__right__12 part__3__right__box">
+                            <div class="part__3__right__12__header">
+                                <ul class="part__3__right__12__header__list body">
+                                    <a href="" class="">
+                                        <li class="part__3__right__12__header__list__1 header__part__3__right_a">GIÁO DỤC</li>
+                                    </a>
+                                    <a href="" class="list__item">
+                                        <li class="part__3__right__12__header__list__2 header__part__3__right_b">Góc phụ huynh</li>
+                                    </a>
+                                    <a href="" class="list__item">
+                                        <li class="part__3__right__12__header__list__3 header__part__3__right_b">Tuyển sinh</li>
+                                    </a>
+                                    <a href="" class="list__item">
+                                        <li class="part__3__right__12__header__list__4 header__part__3__right_b">Tra cứu điểm</li>
+                                    </a>
+                                </ul>
+                            </div>
+                            <article class="part__3__right__12__content body content__part__3__right">
+                                <section class="part__3__right__12__left left__part__3__right">
+                                    <a href="">
+                                        <img src="./assets/img/part-3-right-12-left.webp" alt="" class="part__3__right__12__left__img">
+                                    </a>
+                                    <a href="">
+                                        <h3 class="part__3__right__12__left__title title__part__3__right__left">Trường học còn ngổn ngang, hàng nghìn học sinh khu tái định cư đi học "ké"</h3>
+                                    </a>
+                                    <a href="">
+                                        <p class="part__3__right__12__left__desc desc__part__3__right__left">Các trường học khu tái định cư dự án sân bay Long Thành còn xây dựng ngổn ngang, chưa hoàn thành và chắc chắn...</p>
+                                    </a>
+                                </section>
+                                <article class="part__3__right__12__right">
+                                    <section class="part__3__right__12__right__1 body content__part__3__right__right">
+                                        <a href="">
+                                            <h3 class="part__3__right__12__right__1__desc title__part__3__right__right">Trường cấm tặng hoa cho giáo viên, phụ huynh kêu "hà khắc, vô ơn"</h3>
+                                        </a>
+                                        <a href="">
+                                            <img src="./assets/img/part-3-right-12-right-1.webp" alt="" class="img__part__3__right__right">
+                                        </a>
+                                    </section>
+                                    <section class="part__3__right__12__right__1 body content__part__3__right__right">
+                                        <a href="">
+                                            <h3 class="part__3__right__12__right__1__desc title__part__3__right__right">Lịch công bố điểm chuẩn mới nhất của các trường đại học sau khi thay đổi</h3>
+                                        </a>
+                                        <a href="">
+                                            <img src="./assets/img/part-3-right-12-right-2.webp" alt="" class="img__part__3__right__right">
+                                        </a>
+                                    </section>
+                                    <section class="part__3__right__12__right__1 body content__part__3__right__right">
+                                        <a href="">
+                                            <h3 class="part__3__right__12__right__1__desc title__part__3__right__right">Cậu học trò với nhiều giải thưởng vật lý, quyết tâm trở thành kỹ sư phần mềm</h3>
+                                        </a>
+                                        <a href="">
+                                            <img src="./assets/img/part-3-right-12-right-3.webp" alt="" class="img__part__3__right__right">
+                                        </a>
+                                    </section>
+                                    <section class="part__3__right__12__right__1 body">
+                                        <a href="">
+                                            <h3 class="part__3__right__12__right__1__desc title__part__3__right__right">NHà Nội mở cổng thông tin chuyển trường online cho học sinh cấp 3</h3>
+                                        </a>
+                                        <a href="">
+                                            <img src="./assets/img/part-3-right-12-right-4.webp" alt="" class="img__part__3__right__right" width="140">
+                                        </a>
+                                    </section>
+                                </article>
+                            </article>
+                        </article>
+                        <article class="part__3__right__13 body">
+                            <div class="part__3__right__13__left">
+                                <div class="part__3__right__13__left__h3">
+                                    <p class="part__3__right__13__left__title">THĂM DÒ Ý KIẾN</p>
+                                </div>
+                                <div class="part__3__right__13__left__content">
+                                    <img src="./assets/img/logodantri.svg" alt="" class="part__3__right__13__left__content__logo" width="90" height="26">
+                                    <p class="part__3__right__13__left__content__desc">Theo dự thảo Luật Nhà ở (sửa đổi), người nước ngoài được sở hữu nhà 
+                                        có thời hạn và không được sở hữu phần đất xây nhà tại Việt Nam, khi hết thời hạn sở hữu, người nước ngoài sẽ được gia 
+                                        hạn thời gian sở hữu 1 lần. Ý kiến của bạn:</p>
+                                    <div class="part__3__right__13__left__content__tick__1"></div>
+                                    <div class="part__3__right__13__left__content__tick__2"></div>
+                                    <div class="part__3__right__13__left__content__tick__3"></div>
+                                    <p class="part__3__right__13__left__content__action__1">Gửi ý kiến</p>
+                                    <p class="part__3__right__13__left__content__action__2">Xem kết quả</p>
+                                    <p class="part__3__right__13__left__content__spam">Đã có 293 người tham gia</p>
+                                </div>
+                            </div>
+                            <div class="part__3__right__13__right">
+                                <a href="">
+                                    <img src="./assets/img/part-3-right-13.jpg" alt="" class="part__3__right__13__right__img" width="300" height="600">
+                                </a>
+                            </div>
+                        </article>
+                    </div>
+                </div> 
+            </div>
+        </div>
+        <div class="part__4">
+            <div class="content">
+                <div class="part__4__list__advert">
+                    <a href="">
+                        <img src="./assets/img/part__4__adv.png" alt="" class="part__4__list__advert__img">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="part__5">
+            <div class="content">
+                <div class="part__5__top body justify__between">
+                    <div class="part__5__top__logo body">
+                        <img src="./assets/img/part__5__top__logo__icon.svg" alt="" class="part__5__top__logo__icon" >
+                        <a href="">
+                            <p class="part__5__top__logo__title">MEDIA</p>
+                        </a>
+                    </div>
+                    <div class="part__5__top__action body">
+                        <a href="">
+                            <p class="part__5__top__action__desc">Theo dõi Dân Trí trên</p>
+                        </a>
+                        <a href="">
+                            <img src="./assets/img/part__5__top__action__icon.png" alt="" class="part__5__top__action__icon" >
+                        </a>
+                    </div>
+                </div>
+                <div class="part__5__bottom body">
+                    <section class="part__5__bottom__left">
+                        <a href="">
+                            <img src="./assets/img/part__5__bottom__left.webp" alt="" class="part__5__bottom__left__img" width="356>
+                        </a>
+                        <a href="">
+                            <h3 class="part__5__bottom__left__title">"Xin cô, bác cứu con"</h3>
+                        </a>
+                    </section>
+                    <section class="part__5__bottom__betw">
+                        <a href="">
+                            <img src="./assets/img/part__5__bottom__betw.webp" alt="" class="part__5__bottom__betw__img" width="356">
+                        </a>
+                        <a href="">
+                            <h3 class="part__5__bottom__betw__title">Siêu pháo "lửa mặt trời" Nga khai hỏa, phá hủy cứ điểm Ukraine</h3>
+                        </a>
+                    </section>
+                    <section class="part__5__bottom__right">
+                        <a href="">
+                            <img src="./assets/img/part__5__bottom__right.webp" alt="" class="part__5__bottom__right__img" width="356>
+                        </a>
+                        <a href="">
+                            <h3 class="part__5__bottom__right__title">Nga công bố video bắn cảnh cáo và đổ bộ tàu hàng ở Biển Đen</h3>
+                        </a>
+                    </section>
+                </div>
+            </div>
+        </div>
+        <div class="part__6">
+            <div class="content">
+                <div class="part__6__top">
+                    <div class="part__6__top__logo">
+                        <a href="">
+                            <p class="part__6__top__logo__title">VIDEO NGẮN</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="part__6__bottom body">
+                    <section class="part__6__bottom__1 content__part__6">
+                        <a href="">
+                            <img src="./assets/img/part-6-bottom-1.webp" alt="" class="part__6__bottom__1__img" width="205.6">
+                        </a>
+                        <a href="">
+                            <h3 class="part__6__bottom__1__title title__part__6">"HLV Hoàng Anh Tuấn lên tiếng về hành động nổi nóng của Văn Trường"</h3>
+                        </a>
+                        <a href="">
+                            <span class="part__6__bottom__1__span span__part__6">222 lượt xem - Xã hội</span>
+                        </a>
+                    </section>
+                    <section class="part__6__bottom__2 content__part__6">
+                        <a href="">
+                            <img src="./assets/img/part-6-bottom-2.webp" alt="" class="part__6__bottom__2__img" width="205.6">
+                        </a>
+                        <a href="">
+                            <h3 class="part__6__bottom__2__title title__part__6">Người phụ nữ ôm con ngồi trên nắp capo ô tô khiến cộng đồng xôn xao</h3>
+                        </a>
+                        <a href="">
+                            <span class="part__6__bottom__2__span span__part__6">284 lượt xem - Thể thao</span>
+                        </a>
+                    </section>
+                    <section class="part__6__bottom__3 content__part__6">
+                        <a href="">
+                            <img src="./assets/img/part-6-bottom-3.webp" alt="" class="part__6__bottom__3__img" width="205.6">
+                        </a>
+                        <a href="">
+                            <h3 class="part__6__bottom__3__title title__part__6">Tuyển nữ Việt Nam đứng cuối cùng ở bảng xếp hạng World Cup 2023</h3>
+                        </a>
+                        <a href="">
+                            <span class="part__6__bottom__3__span span__part__6">338 lượt xem - Thể thao</span>
+                        </a>
+                    </section>
+                    <section class="part__6__bottom__4 content__part__6">
+                        <a href="">
+                            <img src="./assets/img/part-6-bottom-4.webp" alt="" class="part__6__bottom__4__img" width="205.6">
+                        </a>
+                        <a href="">
+                            <h3 class="part__6__bottom__4__title title__part__6">Vụ khiếu nại CSGT "va" gậy vào mắt: Thanh niên vi phạm tốc độ</h3>
+                        </a>
+                        <a href="">
+                            <span class="part__6__bottom__4__span span__part__6">371 lượt xem - Xã hội</span>
+                        </a>
+                    </section>
+                    <section class="part__6__bottom__5 content__part__6">
+                        <a href="">
+                            <img src="./assets/img/part-6-bottom-5.webp" alt="" class="part__6__bottom__5__img" width="205.6">
+                        </a>
+                        <a href="">
+                            <h3 class="part__6__bottom__5__title title__part__6">Giám đốc công ty đấu giá biển số ô tô gửi lời xin lỗi khách hàng</h3>
+                        </a>
+                        <a href="">
+                            <span class="part__6__bottom__5__span span__part__6">1128 lượt xem - Xã hội</span>
+                        </a>
+                    </section>
+                </div>
+            </div>
+        </div>
+        <div class="part__7">
+            <div class="content">
+                <div class="part__7__nav">
+                    <ul class="part__7__nav__list body">
+                        <a href="">
+                            <li class="part__7__nav__item__1">SỨC MẠNH SỐ</li>
+                        </a>
+                        <a href="">
+                            <li class="part__7__nav__item__2 item__nav__part__7__8">Sản phẩm</li>
+                        </a>
+                        <a href="">
+                            <li class="part__7__nav__item__3 item__nav__part__7__8">Di động - Viễn thông</li>
+                        </a>
+                        <a href="">
+                            <li class="part__7__nav__item__4 item__nav__part__7__8">Phần mềm - Bảo mật</li>
+                        </a>
+                </div>
+                <div class="part__7__content part__1__7__8 body">
+                    <article class="part__7__left left__part__1__7__8">
+                        <section class="part__7__left__top left__top__part__1__7__8">
+                            <a href="">
+                                <img src="./assets/img/part-7-left-top.webp" alt="" class="part__7__left__top__img img__left__part__1__7__8">
+                            </a>
+                            <a href="">
+                                <h3 class="part__7__left__top__title title__left__1__7__8">Thái Lan cân nhắc cấm Facebook vì không kiểm soát được nội dung quảng cáo</h3>
+                            </a>
+                        </section>
+                        <section class="part__7__left__bottom">
+                            <a href="">
+                                <img src="./assets/img/part-7-left-bottom.webp" alt="" class="part__7__left__bottom__img img__left__part__1__7__8">
+                            </a>
+                            <a href="">
+                                <h3 class="part__7__left__bottom__title title__left__1__7__8">Trang web đấu giá biển số đẹp bị "sập" vì quá tải - Lý do khó chấp nhận</h3>
+                            </a>
+                        </section>
+                    </article>
+                    <section class="part__7__between betwwen__part__1__7__8">
+                        <a href="">
+                            <img src="./assets/img/part-7-between.webp" alt="" class="part__7__between__img img__between__part__1__7__8">
+                        </a>
+                        <a href="">
+                            <h2 class="part__7__between__title title__betwwen__1__7__8">Giá smartphone Android sẽ tăng cao vì iPhone 15</h2>
+                        </a>
+                        <a href="">
+                            <p class="part__7__between__desc desc__betwwen__1__7__8">Việc Apple tăng giá bán iPhone 15 sẽ kéo theo các nhà sản xuất smartphone Android tăng giá thiết bị để cạnh tranh.</p>
+                        </a>
+                    </section>
+                    <article class="part__7__right right__part__1__7__8">
+                        <section class="part__7__right__1 right__item__part__7__8 body">
+                            <a href="">
+                                <h3 class="part__7__right__1__title desc__right__1__7__8">iPhone 15 Pro sẽ có sạc nhanh hơn?</h3>
+                            </a>
+                            <a href="">
+                                <img src="./assets/img/part-7-right-1.webp" alt="" class="part__7__right__1__img img__right__part__1__7__8">
+                            </a>
+                        </section>
+                        <section class="part__7__right__2 right__item__part__7__8 body">
+                            <a href="">
+                                <h3 class="part__7__right__2__title desc__right__1__7__8">Giáo sư đại học danh tiếng bị khóa tài khoản X vì chỉ trích Elon Musk</h3>
+                            </a>
+                            <a href="">
+                                <img src="./assets/img/part-7-right-2.webp" alt="" class="part__7__right__2__img img__right__part__1__7__8">
+                            </a>
+                        </section>
+                        <section class="part__7__right__3 right__item__part__7__8 body">
+                            <a href="">
+                                <h3 class="part__7__right__3__title desc__right__1__7__8">Trao giải cuộc thi "Tiết kiệm điện - Sáng kiến Cool"</h3>
+                            </a>
+                            <a href="">
+                                <img src="./assets/img/part-7-right-3.webp" alt="" class="part__7__right__3__img img__right__part__1__7__8">
+                            </a>
+                        </section>
+                        <section class="part__7__right__4 right__item__part__7__8 body">
+                            <a href="">
+                                <h3 class="part__7__right__4__title desc__right__1__7__8">"Cha đẻ" phần mềm Photoshop và định dạng file PDF qua đời ở tuổi 82</h3>
+                            </a>
+                            <a href="">
+                                <img src="./assets/img/part-7-right-4.webp" alt="" class="part__7__right__4__img img__right__part__1__7__8">
+                            </a>
+                        </section>
+                        <section class="part__7__right__5 right__item__part__7__8 body">
+                            <a href="">
+                                <h3 class="part__7__right__5__title desc__right__1__7__8">Quảng cáo môi giới mại dâm ngập tràn trên Facebook</h3>
+                            </a>
+                            <a href="">
+                                <img src="./assets/img/part-7-right-5.webp" alt="" class="part__7__right__5__img img__right__part__1__7__8">
+                            </a>
+                        </section>
+                    </article>
+                </div>
+            </div>
+        </div>
+        <div class="part__8">
+            <div class="content">
+                <div class="part__8__nav">
+                    <ul class="part__8__nav__list body">
+                        <a href="">
+                            <li class="part__8__nav__item__1">AN SINH</li>
+                        </a>
+                        <a href="">
+                            <li class="part__8__nav__item__2 item__nav__part__7__8">Chuyện đời</li>
+                        </a>
+                        <a href="">
+                            <li class="part__8__nav__item__3 item__nav__part__7__8">Dân sinh</li>
+                        </a>
+                        <a href="">
+                            <li class="part__8__nav__item__4 item__nav__part__7__8">Chuyển động</li>
+                        </a>
+                    </ul>
+                </div>
+                <div class="part__8__content part__1__7__8 body">
+                    <article class="part__8__left left__part__1__7__8">
+                        <section class="part__8__left__top left__top__part__1__7__8">
+                            <a href="">
+                                <img src="./assets/img/part-8-left-top.webp" alt="" class="part__8__left__top__img img__left__part__1__7__8">
+                            </a>
+                            <a href="">
+                                <h3 class="part__8__left__top__title title__left__1__7__8">Thủ đoạn mới, mạo danh BHXH thu hồi tiền trợ cấp thất nghiệp</h3>
+                            </a>
+                        </section>
+                        <section class="part__8__left__bottom">
+                            <a href="">
+                                <img src="./assets/img/part-8-left-bottom.webp" alt="" class="part__8__left__bottom__img img__left__part__1__7__8">
+                            </a>
+                            <a href="">
+                                <h3 class="part__8__left__bottom__title title__left__1__7__8">Đoàn đại biểu Bộ LĐ-TB&XH tham dự Diễn đàn Phụ nữ và Kinh tế APEC tại Hoa Kỳ</h3>
+                            </a>
+                        </section>
+                    </article>
+                    <section class="part__8__between betwwen__part__1__7__8">
+                        <a href="">
+                            <img src="./assets/img/part-8-between.webp" alt="" class="part__8__between__img img__between__part__1__7__8">
+                        </a>
+                        <a href="">
+                            <h2 class="part__8__between__title title__betwwen__1__7__8">Vợ bế con ngồi nắp capo ô tô, cười chua chát bắt gian chồng ngoại tình</h2>
+                        </a>
+                        <a href="">
+                            <p class="part__8__between__desc desc__betwwen__1__7__8">Ngày 22/8, mạng xã hội xuất hiện đoạn clip ghi lại cảnh người phụ nữ bế con gái, ngồi trên nắp capo ô tô cãi nhau với người đàn ông, khiến nhiều người xót xa.</p>
+                        </a>
+                    </section>
+                    <article class="part__8__right right__part__1__7__8">
+                        <section class="part__8__right__1 right__item__part__7__8 body">
+                            <a href="">
+                                <h3 class="part__8__right__1__title desc__right__1__7__8">Tuổi của thân nhân hưởng trợ cấp tuất hàng tháng sẽ tăng theo tuổi nghỉ hưu</h3>
+                            </a>
+                            <a href="">
+                                <img src="./assets/img/part-8-right-1.webp" alt="" class="part__8__right__1__img img__right__part__1__7__8">
+                            </a>
+                        </section>
+                        <section class="part__8__right__2 right__item__part__7__8 body">
+                            <a href="">
+                                <h3 class="part__8__right__2__title desc__right__1__7__8">Phát hiện 22 hài cốt liệt sỹ trong hang đá, còn nhiều xương cốt và di vật</h3>
+                            </a>
+                            <a href="">
+                                <img src="./assets/img/part-8-right-2.webp" alt="" class="part__8__right__2__img img__right__part__1__7__8">
+                            </a>
+                        </section>
+                        <section class="part__8__right__3 right__item__part__7__8 body">
+                            <a href="">
+                                <h3 class="part__8__right__3__title desc__right__1__7__8">Đưa người hấp hối về quê bị gây khó dễ, gia đình phải chi 20 triệu đồng?</h3>
+                            </a>
+                            <a href="">
+                                <img src="./assets/img/part-8-right-3.webp" alt="" class="part__8__right__3__img img__right__part__1__7__8">
+                            </a>
+                        </section>
+                        <section class="part__8__right__4 right__item__part__7__8 body">
+                            <a href="">
+                                <h3 class="part__8__right__4__title desc__right__1__7__8">7 năm chi lương hưu cho người chết do khai tử ở nhà con trai</h3>
+                            </a>
+                            <a href="">
+                                <img src="./assets/img/part-8-right-4.webp" alt="" class="part__8__right__4__img img__right__part__1__7__8">
+                            </a>
+                        </section>
+                        <section class="part__8__right__5 right__item__part__7__8 body">
+                            <a href="">
+                                <h3 class="part__8__right__5__title desc__right__1__7__8">Tình yêu 20 năm không chăn gối của đôi vợ chồng... chị em lệch tuổi</h3>
+                            </a>
+                            <a href="">
+                                <img src="./assets/img/part-8-right-5.webp" alt="" class="part__8__right__5__img img__right__part__1__7__8">
+                            </a>
+                        </section>
+                    </article>
+                </div>
+            </div>
+        </div>
+        <div class="part__9">
+            <div class="content">
+                <div class="part__9__list__advert">
+                    <a href="">
+                        <img src="./assets/img/part-9.jpg" class="part__9__list__advert__img">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="part__10">
+            <div class="content">
+                <div class="part__10__nav">
+                    <ul class="part__10__nav__list body">
+                        <a href="">
+                            <li class="part__10__nav__item__1">DÂN TRÍ SPOTLIGHT</li>
+                        </a>
+                        <a href="">
+                            <li class="part__10__nav__item__2 item__nav__part__10">Dmagazine</li>
+                        </a>
+                        <a href="">
+                            <li class="part__10__nav__item__3 item__nav__part__10">Infographic</li>
+                        </a>
+                        <a href="">
+                            <li class="part__10__nav__item__4 item__nav__part__10">DBiz</li>
+                        </a>
+                        <a href="">
+                            <li class="part__10__nav__item__5 item__nav__part__10">Photo Story</li>
+                        </a>
+                        <a href="">
+                            <li class="part__10__nav__item__5 item__nav__part__10">Tâm điểm</li>
+                        </a>
+                    </ul>
+                </div>
+                <div class="part__10__bottom body">
+                    <section class="part__10__bottom__1 content__part__10">
+                        <a href="">
+                            <img src="./assets/img/part-10-bottom-1.webp" alt="" class="part__10__bottom__1__img" width="264">
+                        </a>
+                        <a href="">
+                            <img src="./assets/img/story.svg" alt="" class="part__10__bottom__1__logo logo__part__10" width="88" height="16">
+                        </a>
+                        <a href="">
+                            <h3 class="part__10__bottom__1__title title__part__10">"Đội mở đường giúp nhiều bệnh nhân vượt...cửa tử"</h3>
+                        </a>  
+                    </section>
+                    <section class="part__10__bottom__2 content__part__10">
+                        <a href="">
+                            <img src="./assets/img/part-10-bottom-2.webp" alt="" class="part__10__bottom__2__img" width="264">
+                        </a>
+                        <a href="">
+                            <img src="./assets/img/tâm điểm.svg" alt="" class="part__10__bottom__1__logo logo__part__10__a" width="88" height="16">
+                        </a>
+                        <a href="">
+                            <h3 class="part__10__bottom__2__title title__part__10">Giá cổ phiếu và túi tiền tỷ phú</h3>
+                        </a>
+                    </section>
+                    <section class="part__10__bottom__3 content__part__10">
+                        <a href="">
+                            <img src="./assets/img/part-10-bottom-3.webp" alt="" class="part__10__bottom__3__img" width="264">
+                        </a>
+                        <a href="">
+                            <img src="./assets/img/infograp.svg" alt="" class="part__10__bottom__1__logo logo__part__10" width="88" height="16">
+                        </a>
+                        <a href="">
+                            <h3 class="part__10__bottom__3__title title__part__10">Đại gia xuất khẩu chanh leo gây bất ngờ</h3>
+                        </a>
+                    </section>
+                    <section class="part__10__bottom__4 content__part__10">
+                        <a href="">
+                            <img src="./assets/img/part-10-bottom-4.webp" alt="" class="part__10__bottom__4__img" width="264">
+                        </a>
+                        <a href="">
+                            <img src="./assets/img/story.svg" alt="" class="part__10__bottom__1__logo logo__part__10" width="88" height="16">
+                        </a>
+                        <a href="">
+                            <h3 class="part__10__bottom__4__title title__part__10">Cận cảnh tuyến cao tốc "nút thắt cổ chai" chưa thu phí đã đề xuất mở rộng</h3>
+                        </a>
+                    </section>
+                </div>
+            </div>
+        </div>
+        <div class="part__11">
+            <div class="content body">
+                <section class="part__11__1 part__11__item ">
+                    <a href="">
+                        <h2 class="part__11__1__title title__part__11__13">PHÁP LUẬT</h2>
+                    </a>
+                    <ul class="part__11__1__nav nav__part__11__13 body">
+                        <li class="part__11__1__nav__item">Hồ sơ vụ án</li>
+                        <li class="part__11__1__nav__item">Pháp đình</li>
+                    </ul>
+                    <a href="">
+                        <img src="./assets/img/part-11-1.webp" alt="" class="part__11__1__img" width="264"  height="176">
+                    </a>
+                    <a href="">
+                        <h3 class="part__11__1__content content__part__11__13">Hà Nội: Tạm giữ thầy giáo vụ nam sinh tử vong ở bể bơi trường quốc tế</h3>
+                    </a>
+                </section>
+                <section class="part__11__2 part__11__item ">
+                    <a href="">
+                        <h2 class="part__11__2__title title__part__11__13">DU LỊCH</h2>
+                    </a>
+                    <ul class="part__11__1__nav nav__part__11__13 body">
+                        <li class="part__11__1__nav__item">Tin tức</li>
+                        <li class="part__11__1__nav__item">Khám phá</li>
+                        <li class="part__11__1__nav__item">Món ngon - Điểm đẹp</li>
+                    </ul>
+                    <a href="">
+                        <img src="./assets/img/part-11-2.webp" alt="" class="part__11__2__img" width="264"  height="176">
+                    </a>
+                    <a href="">
+                        <h3 class="part__11__2__content content__part__11__13">Siêu tàu đưa 4.000 khách quốc tế tới Bà Rịa - Vũng Tàu hoành tráng cỡ nào?</h3>
+                    </a>
+                </section>
+                <section class="part__11__3 part__11__item ">
+                    <a href="">
+                        <h2 class="part__11__3__title title__part__11__13">ĐỜI SỐNG</h2>
+                    </a>
+                    <ul class="part__11__1__nav nav__part__11__13 body">
+                        <li class="part__11__1__nav__item">Cộng đồng</li>
+                        <li class="part__11__1__nav__item">Nhà đẹp</li>
+                        <li class="part__11__1__nav__item">Thượng lưu</li>
+                    </ul>
+                    <a href="">
+                        <img src="./assets/img/part-11-3.webp" alt="" class="part__11__3__img" width="264"  height="176">
+                    </a>
+                    <a href="">
+                        <h3 class="part__11__3__content content__part__11__13">Vác gậy đòi đánh hàng xóm và đủ chuyện bi hài vì bị "tra tấn" tiếng ồn</h3>
+                    </a>
+                </section>
+                <section class="part__11__4 part__11__item ">
+                    <a href="">
+                        <h2 class="part__11__4__title title__part__11__13">TÌNH YÊU - GIỚI TÍNH</h2>
+                    </a>
+                    <ul class="part__11__1__nav nav__part__11__13 body">
+                        <li class="part__11__1__nav__item">Tình yêu - Giới tính</li>
+                        <li class="part__11__1__nav__item">Gia đình</li>
+                        <li class="part__11__1__nav__item">Tình yêu</li>
+                    </ul>
+                    <a href="">
+                        <img src="./assets/img/part-11-4.webp" alt="" class="part__11__4__img" width="264"  height="176">
+                    </a>
+                    <a href="">
+                        <h3 class="part__11__4__content content__part__11__13">Về chơi nhà bạn trai, tôi sững sờ khi thấy bức ảnh treo trên tường</h3>
+                    </a>
+                </section>
+            </div>
+        </div>
+        <div class="part__12">
+            <div class="content">
+                <article class="part__12__1 body part__12__14__box">
+                    <section class="part__12__1__1 content__part__12__14 body">
+                        <a href="">
+                            <h4 class="part__12__1__1__title title__part__12__14">Bi hài thói quen chi tiêu trái ngược của giới trẻ Hàn Quốc thời nay</h4>
+                        </a>
+                        <a href="">
+                            <img src="./assets/img/part-12-1-1.webp" alt="" class="part__12__1__1__img img__part__12__14" width="114" height="76">
+                        </a>
+                    </section>
+                    <section class="part__12__1__2 content__part__12__14 body">
+                        <a href="">
+                            <h4 class="part__12__1__2__title title__part__12__14">Người Ấn Độ đếm ngược trước sứ mệnh không gian lịch sử</h4>
+                        </a>
+                        <a href="">
+                            <img src="./assets/img/part-12-1-2.webp" alt="" class="part__12__1__2__img img__part__12__14" width="114" height="76">
+                        </a>
+                    </section>
+                    <section class="part__12__1__3 content__part__12__14 body">
+                        <a href="">
+                            <h4 class="part__12__1__3__title title__part__12__14">Đại án Việt Á và bài học kiểm soát quyền lực</h4>
+                        </a>
+                        <a href="">
+                            <img src="./assets/img/part-12-1-3.webp" alt="" class="part__12__1__3__img img__part__12__14" width="114" height="76">
+                        </a>
+                    </section>
+                    <section class="part__12__1__4 content__part__12__14 body">
+                        <a href="">
+                            <h4 class="part__12__1__4__title title__part__12__14">Góc nhìn pháp lý trong việc nhóm "Bông hồng đen" tự ý lấy máu học sinh</h4>
+                        </a>
+                        <a href="">
+                            <img src="./assets/img/part-12-1-4.webp" alt="" class="part__12__1__4__img img__part__12__14" width="114" height="76">
+                        </a>
+                    </section>
+                </article>
+                <article class="part__12__2 body part__12__14__box">
+                    <section class="part__12__2__1 content__part__12__14 body">
+                        <a href="">
+                            <h4 class="part__12__2__1__title title__part__12__14">Chàng trai Đồng Nai thành công tặng nón lá đặc biệt cho Blackpink tại Mỹ</h4>
+                        </a>
+                        <a href="">
+                            <img src="./assets/img/part-12-2-1.webp" alt="" class="part__12__2__1__img img__part__12__14" width="114" height="76">
+                        </a>
+                    </section>
+                    <section class="part__12__2__2 content__part__12__14 body">
+                        <a href="">
+                            <h4 class="part__12__2__2__title title__part__12__14">Khoa học công nghệ Trung Quốc: Từ bắt chước đến thống trị thế giới</h4>
+                        </a>
+                        <a href="">
+                            <img src="./assets/img/part-12-2-2.webp" alt="" class="part__12__2__2__img img__part__12__14" width="114" height="76">
+                        </a>
+                    </section>
+                    <section class="part__12__2__3 content__part__12__14 body">
+                        <a href="">
+                            <h4 class="part__12__2__3__title title__part__12__14">Phần cứng và phần mềm của văn hóa</h4>
+                        </a>
+                        <a href="">
+                            <img src="./assets/img/part-12-2-3.webp" alt="" class="part__12__2__3__img img__part__12__14" width="114" height="76">
+                        </a>
+                    </section>
+                    <section class="part__12__2__4 content__part__12__14 body">
+                        <a href="">
+                            <h4 class="part__12__2__4__title title__part__12__14">Xe bị mất cắp, làm thế nào để được giữ lại biển số định danh?</h4>
+                        </a>
+                        <a href="">
+                            <img src="./assets/img/part-12-2-4.webp" alt="" class="part__12__2__4__img img__part__12__14" width="114" height="76">
+                        </a>
+                    </section>
+                </article>
+                <article class="part__12__3 body part__12__14__box">
+                    <section class="part__12__3__1 content__part__12__14 body">
+                        <a href="">
+                            <h4 class="part__12__3__1__title title__part__12__14">Bạn gái của hot boy CLB Thanh Hóa có vẻ ngoài xinh đẹp, nóng bỏng</h4>
+                        </a>
+                        <a href="">
+                            <img src="./assets/img/part-12-3-1.webp" alt="" class="part__12__3__1__img img__part__12__14" width="114" height="76">
+                        </a>
+                    </section>
+                    <section class="part__12__3__2 content__part__12__14 body">
+                        <a href="">
+                            <h4 class="part__12__3__2__title title__part__12__14">Vì sao bạn không nên giết chết nhện trong nhà mình?</h4>
+                        </a>
+                        <a href="">
+                            <img src="./assets/img/part-12-3-2.webp" alt="" class="part__12__3__2__img img__part__12__14" width="114" height="76">
+                        </a>
+                    </section>
+                    <section class="part__12__3__3 content__part__12__14 body">
+                        <a href="">
+                            <h4 class="part__12__3__3__title title__part__12__14">Cơ chế nào để "người dạy đủ sống"?</h4>
+                        </a>
+                        <a href="">
+                            <img src="./assets/img/part-12-3-3.webp" alt="" class="part__12__3__3__img img__part__12__14" width="114" height="76">
+                        </a>
+                    </section>
+                    <section class="part__12__3__4 content__part__12__14 body">
+                        <a href="">
+                            <h4 class="part__12__3__4__title title__part__12__14">Trách nhiệm pháp lý của người mẹ 15 tuổi ở vụ bé 3 tháng tuổi bị bạo hành</h4>
+                        </a>
+                        <a href="">
+                            <img src="./assets/img/part-12-3-4.webp" alt="" class="part__12__3__4__img img__part__12__14" width="114" height="76">
+                        </a>
+                    </section>
+                </article>
+            </div>
+        </div>
+        <div class="part__13">
+            <div class="content body">
+                <section class="part__13__1 part__13__item ">
+                    <a href="">
+                        <h2 class="part__13__1__title title__part__11__13">NHỊP SỐNG TRẺ</h2>
+                    </a>
+                    <ul class="part__13__1__nav nav__part__11__13 body">
+                        <li class="part__13__1__nav__item">Cộng đồng mạng</li>
+                        <li class="part__13__1__nav__item">Tài năng trẻ</li>
+                    </ul>
+                    <a href="">
+                        <img src="./assets/img/part-13-1.webp" alt="" class="part__13__1__img" width="264"  height="176">
+                    </a>
+                    <a href="">
+                        <h3 class="part__13__1__content content__part__11__13">Nam stylist "gây sốt" vì đẹp trai, ăn mặc sành điệu như sao Hàn</h3>
+                    </a>
+                </section>
+                <section class="part__13__2 part__13__item ">
+                    <a href="">
+                        <h2 class="part__13__2__title title__part__11__13">KHOA HỌC - CÔNG NGHỆ</h2>
+                    </a>
+                    <ul class="part__13__1__nav nav__part__11__13 body">
+                        <li class="part__13__1__nav__item">Thế giới tự nhiên</li>
+                        <li class="part__13__1__nav__item">Vũ trụ</li>
+                        <li class="part__13__1__nav__item">Khám phá</li>
+                    </ul>
+                    <a href="">
+                        <img src="./assets/img/part-13-2.webp" alt="" class="part__13__2__img" width="264"  height="176">
+                    </a>
+                    <a href="">
+                        <h3 class="part__13__2__content content__part__11__13">Tàu Chandrayaan-3 hạ cánh lên Mặt Trăng: Thời khắc Ấn Độ đi vào lịch sử</h3>
+                    </a>
+                </section>
+                <section class="part__13__3 part__13__item ">
+                    <a href="">
+                        <h2 class="part__13__3__title title__part__11__13">TÂM ĐIỂM</h2>
+                    </a>
+                    <ul class="part__13__1__nav nav__part__11__13 body">
+                        <li class="part__13__1__nav__item">Cộng đồng</li>
+                        <li class="part__13__1__nav__item">Nhà đẹp</li>
+                        <li class="part__13__1__nav__item">Thượng lưu</li>
+                    </ul>
+                    <a href="">
+                        <img src="./assets/img/part-13-3.webp" alt="" class="part__13__3__img" width="264"  height="176">
+                    </a>
+                    <a href="">
+                        <h3 class="part__13__3__content content__part__11__13">Giá cổ phiếu và túi tiền tỷ phú</h3>
+                    </a>
+                </section>
+                <section class="part__13__4 part__13__item ">
+                    <a href="">
+                        <h2 class="part__13__4__title title__part__11__13">BẠN ĐỌC</h2>
+                    </a>
+                    <ul class="part__13__1__nav nav__part__11__13 body">
+                        <li class="part__13__1__nav__item">Bạn đọc nói</li>
+                        <li class="part__13__1__nav__item">Tư vấn pháp luật</li>
+                        <li class="part__13__1__nav__item">Hồi âm</li>
+                    </ul>
+                    <a href="">
+                        <img src="./assets/img/part-13-4.webp" alt="" class="part__13__4__img" width="264"  height="176">
+                    </a>
+                    <a href="">
+                        <h3 class="part__13__4__content content__part__11__13">UBND huyện ở Bạc Liêu thua kiện người dân: Tòa buộc huyện thi hành bản án</h3>
+                    </a>
+                </section>
+            </div>
+        </div>
+        <div class="part__14">
+            <div class="content">
+                <article class="part__14__1 body part__12__14__box">
+                    <section class="part__14__1__1 content__part__12__14 body">
+                        <a href="">
+                            <h4 class="part__14__1__1__title title__part__12__14">Tạm giữ thanh niên hiếp dâm bé gái 12 tuổi bên bờ suối</h4>
+                        </a>
+                        <a href="">
+                            <img src="./assets/img/part-14-1-1.webp" alt="" class="part__14__1__1__img img__part__12__14" width="114" height="76">
+                        </a>
+                    </section>
+                    <section class="part__14__1__2 content__part__12__14 body">
+                        <a href="">
+                            <h4 class="part__14__1__2__title title__part__12__14">Siêu tàu đưa 4.000 khách quốc tế tới Bà Rịa - Vũng Tàu hoành tráng cỡ nào?</h4>
+                        </a>
+                        <a href="">
+                            <img src="./assets/img/part-14-1-2.webp" alt="" class="part__14__1__2__img img__part__12__14" width="114" height="76">
+                        </a>
+                    </section>
+                    <section class="part__14__1__3 content__part__12__14 body">
+                        <a href="">
+                            <h4 class="part__14__1__3__title title__part__12__14">Chuyện tình của thiếu gia Dubai từ bỏ tài sản cưới mẹ đơn thân hơn 16 tuổi</h4>
+                        </a>
+                        <a href="">
+                            <img src="./assets/img/part-14-1-3.webp" alt="" class="part__14__1__3__img img__part__12__14" width="114" height="76">
+                        </a>
+                    </section>
+                    <section class="part__14__1__4 content__part__12__14 body">
+                        <a href="">
+                            <h4 class="part__14__1__4__title title__part__12__14">Tôi phát hiện chồng ngoại tình nhờ một chiếc tất trong máy giặt</h4>
+                        </a>
+                        <a href="">
+                            <img src="./assets/img/part-14-1-4.webp" alt="" class="part__14__1__4__img img__part__12__14" width="114" height="76">
+                        </a>
+                    </section>
+                </article>
+                <article class="part__14__2 body part__12__14__box">
+                    <section class="part__14__2__1 content__part__12__14 body">
+                        <a href="">
+                            <h4 class="part__14__2__1__title title__part__12__14">Hà Nội: Tạm giữ thầy giáo vụ nam sinh tử vong ở bể bơi trường quốc tế</h4>
+                        </a>
+                        <a href="">
+                            <img src="./assets/img/part-14-2-1.webp" alt="" class="part__14__2__1__img img__part__12__14" width="114" height="76">
+                        </a>
+                    </section>
+                    <section class="part__14__2__2 content__part__12__14 body">
+                        <a href="">
+                            <h4 class="part__14__2__2__title title__part__12__14">Trung Quốc "mở toang cửa", lượng khách quốc tế vẫn kém mặn mà đến thưa thớt</h4>
+                        </a>
+                        <a href="">
+                            <img src="./assets/img/part-14-2-2.webp" alt="" class="part__14__2__2__img img__part__12__14" width="114" height="76">
+                        </a>
+                    </section>
+                    <section class="part__14__2__3 content__part__12__14 body">
+                        <a href="">
+                            <h4 class="part__14__2__3__title title__part__12__14">Cô dâu ở Hậu Giang gây sốt với sính lễ "khủng" trước khi về nhà chồng</h4>
+                        </a>
+                        <a href="">
+                            <img src="./assets/img/part-14-2-3.webp" alt="" class="part__14__2__3__img img__part__12__14" width="114" height="76">
+                        </a>
+                    </section>
+                    <section class="part__14__2__4 content__part__12__14 body">
+                        <a href="">
+                            <h4 class="part__14__2__4__title title__part__12__14">Chăm vợ bị ung thư, chồng tôi nhận được điều bất ngờ này</h4>
+                        </a>
+                        <a href="">
+                            <img src="./assets/img/part-14-2-4.webp" alt="" class="part__14__2__4__img img__part__12__14" width="114" height="76">
+                        </a>
+                    </section>
+                </article>
+                <article class="part__14__3 body part__12__14__box">
+                    <section class="part__14__3__1 content__part__12__14 body">
+                        <a href="">
+                            <h4 class="part__14__3__1__title title__part__12__14">Vụ Trung tâm Pháp y cản xe cứu thương: Tạm giam tài xế tông chết người</h4>
+                        </a>
+                        <a href="">
+                            <img src="./assets/img/part-14-3-1.webp" alt="" class="part__14__3__1__img img__part__12__14" width="114" height="76">
+                        </a>
+                    </section>
+                    <section class="part__14__3__2 content__part__12__14 body">
+                        <a href="">
+                            <h4 class="part__14__3__2__title title__part__12__14">Gia đình Hà Nội chi 120 triệu cải tạo xe thành "nhà di động" đi xuyên Việt</h4>
+                        </a>
+                        <a href="">
+                            <img src="./assets/img/part-14-3-2.webp" alt="" class="part__14__3__2__img img__part__12__14" width="114" height="76">
+                        </a>
+                    </section>
+                    <section class="part__14__3__3 content__part__12__14 body">
+                        <a href="">
+                            <h4 class="part__14__3__3__title title__part__12__14">Ở "thành phố mới" của Hà Nội: Có tiền tỷ trong tay vẫn... hoang mang</h4>
+                        </a>
+                        <a href="">
+                            <img src="./assets/img/part-14-3-3.webp" alt="" class="part__14__3__3__img img__part__12__14" width="114" height="76">
+                        </a>
+                    </section>
+                    <section class="part__14__3__4 content__part__12__14 body">
+                        <a href="">
+                            <h4 class="part__14__3__4__title title__part__12__14">Về chơi nhà bạn trai, tôi sững sờ khi thấy bức ảnh treo trên tường</h4>
+                        </a>
+                        <a href="">
+                            <img src="./assets/img/part-14-3-4.webp" alt="" class="part__14__3__4__img img__part__12__14" width="114" height="76">
+                        </a>
+                    </section>
+                </article>
+            </div>
+        </div>
+        <div class="part__15">
+            <div class="content">
+                <div class="part__15__list__advert">
+                    <a href="">
+                        <img src="./assets/img/part-15.jpg" class="part__15__list__advert__img" width="970" height="250">
+                    </a>
+                </div>
+            </div>
+        </div>
+   </main>
+   <footer>
+        <div class="content">
+            <div class="footer__logo">
+                <a href="">
+                    <img src="./assets/img/logodantri.svg" alt="" class="footer__logo__img" width="102" height="30">
+                </a>
+            </div>
+            <div class="footer__top body">
+                <div class="footer__top__1">
+                    <p>Cơ quan của Bộ Lao động - Thương binh và Xã hội</p>
+                    <p>Tổng biên tập: Phạm Tuấn Anh</p>
+                    <p>Giấy phép hoạt động báo điện tử Dân trí số 298/GP - BTTTT Hà Nội, ngày 14-07-2020.</p>
+                    <p>Địa chỉ tòa soạn: Nhà 48, ngõ 2 Giảng Võ, Cát Linh, Đống Đa, Hà Nội</p>
+                    <p>Văn phòng đại diện miền Nam: 51 Võ Văn Tần, Phường Võ Thị Sáu, Quận 3, TPHCM</p>
+                    <p>Điện thoại: <a href="">024-3736-6491</a>. Fax: <a href="">024-3736-6491</a></p>
+                    <p>Hotline HN: <a href="">0973-567-567.</a> Hotline TPHCM: <a href="">0974-567-567</a></p>
+                    <p>Email: <a href="">info@dantri.com.vn</a></p>
+                </div>
+                <div class="footer__top__2">
+                    <p>Liên hệ quảng cáo: <a href="">0945.54.03.03</a></p>
+                    <p>Email: <a href="">quangcao@dantri.com.vn</a></p>
+                </div>
+                <div class="footer__top__3">
+                    <p class="footer__top__3__desc">Đọc báo Dân trí trên mobile:</p>
+                    <div class="footer__top__3__icon">
+                        <a href="">
+                            <img src="./assets/img/footer__top__3__icon.png" alt="" class="footer__top__3__icon__1">
+                        </a>
+                        <a href="">
+                            <img src="./assets/img/footer__top__3__icon__2.png" alt="" class="footer__top__3__icon__2">
+                        </a>
+                    </div>
+                    <div class="footer__top__3__action body">
+                        <p class="footer__top__3__action__desc">Theo dõi Dân trí trên:</p>
+                        <div class="footer__top__3__action__icon">
+                            <a href=""><img src="./assets/img/footer__top__3__action__icon__1.svg" alt="" class="footer__top__3__action__icon__1"></a>
+                            <a href=""><img src="./assets/img/footer__top__3__action__icon__2.svg" alt="" class="footer__top__3__action__icon__2"></a>
+                            <a href=""><img src="./assets/img/footer__top__3__action__icon__3.svg" alt="" class="footer__top__3__action__icon__3"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__bottom">
+               <p class="footer__bottom__desc">© 2005-2023 Bản quyền thuộc về Báo điện tử Dân trí. Cấm sao chép dưới mọi hình thức nếu không có sự chấp thuận bằng văn bản.</p>
+            </div>
+        </div>
+   </footer> 
+</body>
+</html>
